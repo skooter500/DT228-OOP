@@ -13,7 +13,7 @@ Resources
 
 Week 1
 ------
-* [Introduction lecture video](https://github.com/skooter500/DT228-OOP)
+* [Introduction lecture video](https://www.youtube.com/watch?v=ldB9R9jes0U)
 * [Processing primitives video](https://www.youtube.com/watch?v=8108O5q4cAQ)
 * [Introduction slides](http://1drv.ms/1DbfIMl)
 * [My Oculus Rift & Leap Motion demo video](https://www.youtube.com/watch?v=jtU5_HnSmv0) 
