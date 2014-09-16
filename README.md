@@ -4,9 +4,12 @@ DT228-OOP
 Resources
 ---------
 * [Processing](http://processing.org)
+* [The Processing language reference](http://processing.org/reference/)
 * [Eclipse](http://eclipse.org)
 * [The Java Tutorial from Oracle](http://docs.oracle.com/javase/tutorial/)
-* Labs
+* [Games Fleadh](http://www.gamesfleadh.ie/)
+* [The Imagine Cup](https://www.imaginecup.com/)
+* [Labs](Labs/index.md)
 
 Week 1
 ------
