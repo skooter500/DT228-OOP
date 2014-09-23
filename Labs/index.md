@@ -12,7 +12,11 @@ Advanced! Make the button into a toggle (click on/click off) button. The button 
 void mousePressed()
 ```
 
-This method will get called by the Processing framework whenever the mouse in pressed in the window where your sketch is running.
+This method will get called by the Processing framework whenever the mouse in pressed in the window where your sketch is running. Here is a youtube video with the completed sketch:
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=YGlGRnQoDFY
+" target="_blank"><img src="http://img.youtube.com/vi/YGlGRnQoDFY/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 ###Part 2
 Implement a bouncing ball. It should move diagonally in your sketch and "bounce" off the walls.
