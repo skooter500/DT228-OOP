@@ -1,6 +1,22 @@
 OOP Programming Labs
 ====================
 
+Lab 2
+-----
+###Part 1
+
+Make a rollover button in Processing. The button should be centred on the window and take up 10% of the width and height of the window. When you roll the mouse over the button, it should change colour:
+Advanced! Make the button into a toggle (click on/click off) button. In order to do this, you need to make use of the following method in your sketch:
+
+```Java
+void mousePressed()
+```
+
+This method will get called by the Processing framework whenever the mouse in pressed in the window where your sketch is running.
+
+###Part 2
+Implement this bouncing ball. It should move diagonally in your sketch and "bounce" off the walls.
+
 Lab 1
 -----
 
