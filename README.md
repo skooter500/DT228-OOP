@@ -13,6 +13,11 @@ Resources
 * [The Imagine Cup](https://www.imaginecup.com/)
 * [Labs](Labs/index.md)
 
+Week 3
+------
+* [Geometric patterns in everyday objects pictures](https://picasaweb.google.com/102641008582291248101/Geometry)
+* [Submit your sketchs here. Use the code codymp to sign up](https://classroom.google.com/u/1/c/MTQzNjA1Nlpa)
+
 Week 2
 ------
 * [Data types, the if statement and dynamic sketches in Processing Video]()
