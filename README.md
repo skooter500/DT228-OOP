@@ -20,6 +20,7 @@ Week 3
 * [Spirals sketch](Processing Examples/Spirals)
 * [More Spirals sketch. WARNING! Do not look at this sketch for too long otherwise your mind may leave your body and enter the Astral Plane.](Processing Examples/Spirals)
 * [Submit your sketches through webcourses](http://dit.ie/webcourses)
+* [Trigonometry & the Unit Circle on the Khan Academy](https://www.khanacademy.org/math/trigonometry)
 * [Lab 3](Labs/index.md)
 
 Week 2
