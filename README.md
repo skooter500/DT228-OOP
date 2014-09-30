@@ -16,7 +16,11 @@ Resources
 Week 3
 ------
 * [Geometric patterns in everyday objects pictures](https://picasaweb.google.com/102641008582291248101/Geometry)
-* [Submit your sketchs here. Use the code codymp to sign up](https://classroom.google.com/u/1/c/MTQzNjA1Nlpa)
+* [Circles on a circle sketch](Processing Examples/PointsOnCircle)
+* [Spirals sketch](Processing Examples/Spirals)
+* [More Spirals sketch. WARNING! Do not look at this sketch for too long otherwise your mind may leave your body and enter the Astral Plane.](Processing Examples/Spirals)
+* [Submit your sketches through webcourses](http://dit.ie/webcourses)
+* [Lab 3](Labs/index.md)
 
 Week 2
 ------
