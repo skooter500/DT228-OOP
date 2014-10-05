@@ -1,6 +1,6 @@
 void setup()
 {
-  size(1024, 768, OPENGL);
+  size(1024, 768);
   background(0);
   smooth();
   centX = width / 2;
@@ -49,5 +49,5 @@ void draw()
     colInc = - colInc;
   }
   col += colInc;
-  rot += 0.01f;
+  rot += (float)(mouseY - centY) / ((float) height * 10.0f);
 }
