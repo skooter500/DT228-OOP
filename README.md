@@ -18,7 +18,7 @@ Week 3
 * [Geometric patterns in everyday objects pictures](https://picasaweb.google.com/102641008582291248101/Geometry)
 * [Circles on a circle sketch](Processing Examples/PointsOnCircle)
 * [Spirals sketch](Processing Examples/Spirals)
-* [More Spirals sketch. Try watching the sketch for a while and then look at some code on your screen. WARNING! Do not look at this sketch if you suffer from epilepsy](Processing Examples/Spirals)
+* [More Spirals sketch. Try watching the sketch for a while and then look at some code on your screen. WARNING! Do not look at this sketch if you suffer from epilepsy](Processing Examples/MoreSpirals)
 * [Submit your sketches through webcourses](http://dit.ie/webcourses)
 * [Trigonometry & the Unit Circle on the Khan Academy](https://www.khanacademy.org/math/trigonometry)
 * [Maths is Fun Trigonometry](http://www.mathsisfun.com/sine-cosine-tangent.html)
