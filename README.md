@@ -13,6 +13,12 @@ Resources
 * [The Imagine Cup](https://www.imaginecup.com/)
 * [Labs](Labs/index.md)
 
+Week 4
+------
+* [Lecture video on solving trigonometry in processing. Also decimal to binary and binary to decimal conversion](https://www.youtube.com/watch?v=xhRCdHRi-Xk)
+* [Decimal to binary and binary to decimal sketch](Processing Examples/BinaryToDecimal)
+* [Trigonometry sketch](Processing Examples/KiteTriangleProblem)
+
 Week 3
 ------
 * [Geometric patterns in everyday objects pictures](https://picasaweb.google.com/102641008582291248101/Geometry)
