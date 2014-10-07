@@ -26,7 +26,7 @@ void setup()
   centX = width / 2;
   centY = height / 2;  
   
-  // And set their valuse here
+  // And set their values here
 }
 
 
@@ -45,7 +45,7 @@ int binaryToDecimal(boolean[] bytes)
 {
   int ret = 0;
   
-  // Implement this function
+  // Implement this method
   
   return ret;
 }
@@ -67,6 +67,7 @@ What I suggest you do is:
 ### Bonus!
 - Print the bit numbers over the boxes
 - Implement 2's complement.
+- Colours! Lights! Animations!
 
 Lab 3
 -----
