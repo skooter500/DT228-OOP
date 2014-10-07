@@ -18,6 +18,7 @@ Week 4
 * [Lecture video on solving trigonometry in processing. Also decimal to binary and binary to decimal conversion](https://www.youtube.com/watch?v=xhRCdHRi-Xk)
 * [Decimal to binary and binary to decimal sketch](Processing Examples/BinaryToDecimal)
 * [Trigonometry sketch](Processing Examples/KiteTriangleProblem)
+* [Lab 4](Labs/index.md)
 
 Week 3
 ------
