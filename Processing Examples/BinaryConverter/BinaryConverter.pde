@@ -39,10 +39,11 @@ void draw()
 int binaryToDecimal(boolean[] bytes)
 {
   int ret = 0;
-  
+  int bit = bytes.length - 1;
   for (int i = 0 ; i < bytes.length ; i ++)
   {
-    ret += bytes[i] ? pow(2, i) : 0;
+    ret += bytes[i] ? pow(2, bit) : 0;
+    -- bit;
   }
   
   return ret;
