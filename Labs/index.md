@@ -26,7 +26,11 @@ void setup()
   centX = width / 2;
   centY = height / 2;  
   
+<<<<<<< HEAD
   // And set their values here
+=======
+  // And set their valuse here
+>>>>>>> binaryNums
 }
 
 
@@ -45,7 +49,11 @@ int binaryToDecimal(boolean[] bytes)
 {
   int ret = 0;
   
+<<<<<<< HEAD
   // Implement this method
+=======
+  // Implement this function
+>>>>>>> binaryNums
   
   return ret;
 }

@@ -19,6 +19,7 @@ Week 4
 * [Decimal to binary and binary to decimal sketch](Processing Examples/BinaryToDecimal)
 * [Trigonometry sketch](Processing Examples/KiteTriangleProblem)
 * [Lab 4](Labs/index.md)
+* [Lab 4 Solution](Processing Examples/Lab4Solution)
 
 Week 3
 ------
