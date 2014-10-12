@@ -12,6 +12,7 @@ Resources
 * [Games Fleadh](http://www.gamesfleadh.ie/)
 * [The Imagine Cup](https://www.imaginecup.com/)
 * [Labs](Labs/index.md)
+* [Assignments](Labs/assignments.md)
 
 Week 4
 ------
@@ -20,6 +21,8 @@ Week 4
 * [Trigonometry sketch](Processing Examples/KiteTriangleProblem)
 * [Lab 4](Labs/index.md)
 * [Lab 4 Solution](Processing Examples/Lab4Solution)
+* [All about the assignment](Labs/assignments.md)
+* [Tutorial video - All about the assignment & the solution to the lab](http://youtu.be/Jy6X1RZgh-Q)
 
 Week 3
 ------
@@ -48,5 +51,4 @@ Week 1
 * [The contract for this course](http://1drv.ms/1DbmnG9)
 * [Lab 1](Labs/index.md)
 * [Lab 1 Solution](Processing%20Examples/Lab1Solution)
-* 
 

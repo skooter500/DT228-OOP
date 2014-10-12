@@ -11,6 +11,7 @@ boolean[] bytes = new boolean[16];
 int centX, centY;
 float gap;
 float left;
+int maxNum = (int) pow(2, (int)bytes.length);
 
 void draw()
 {
@@ -45,7 +46,14 @@ int binaryToDecimal(boolean[] bytes)
     -- bit;
   }
   
+  // 2's complement
+  if (bytes[0] == true)
+  {
+    ret -= maxNum;
+  }
+  
   return ret;
+   
 }
 
 void mousePressed()
