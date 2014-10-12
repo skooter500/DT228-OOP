@@ -13,6 +13,10 @@ Resources
 * [The Imagine Cup](https://www.imaginecup.com/)
 * [Labs](Labs/index.md)
 * [Assignments](Labs/assignments.md)
+ 
+Week 5
+------
+* [Tunepal data for the class](Processing Examples/TunepalData)
 
 Week 4
 ------
