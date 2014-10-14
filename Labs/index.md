@@ -1,6 +1,10 @@
 OOP Programming Labs
 ====================
 
+Lab 5
+-----
+In this lab, you will be taking the sketch and the data we worked on in the class yesterday and creating a sketch that generates this bar chart of monthly Android and IOS music searches.
+
 Lab 4
 -----
 For this lab you will be making a sketch that allows the user to convert between binary and decimal using a graphical tool that looks like this:
