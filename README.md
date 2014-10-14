@@ -13,6 +13,8 @@ Resources
 * [The Imagine Cup](https://www.imaginecup.com/)
 * [Labs](Labs/index.md)
 * [Assignments](Labs/assignments.md)
+* [The git manual - read the first three chapters](http://git-scm.com/documentation)
+* [A video tutorial all about git/github](https://www.youtube.com/watch?v=p_PGUltnB6w)
  
 Week 5
 ------
