@@ -22,7 +22,7 @@ Week 5
 * [Tunepal data for the class](Processing Examples/TunepalData)
 * [Arrays in Processing sketch](Processing Examples/Arrays)
 * [Lab 5](Labs/index.md)
-* []
+* [Lab 5 Solution](Processing Examples/Lab5Solution)
 
 Week 4
 ------
