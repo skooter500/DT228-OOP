@@ -18,9 +18,11 @@ Resources
  
 Week 5
 ------
+* [Datasets & arrays in processing video](https://www.youtube.com/watch?v=ccnjXlSnL2Y)
 * [Tunepal data for the class](Processing Examples/TunepalData)
 * [Arrays in Processing sketch](Processing Examples/Arrays)
 * [Lab 5](Labs/index.md)
+* []
 
 Week 4
 ------
