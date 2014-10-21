@@ -8,6 +8,8 @@
 
 */
 
+boolean paused = false;
+
 int countNeighbours(int row, int col)
 {
   int count = 0;
@@ -91,31 +93,39 @@ void randomise()
 
 void update()
 {
-  for (int row = 0 ; row < boardHeight ; row ++)
+  if (keyPressed)
   {
-    for (int col = 0 ; col < boardWidth ; col ++)
+    paused = ! paused;
+  }
+  
+  if (! paused)
+  {
+    for (int row = 0 ; row < boardHeight ; row ++)
     {
-      int count = countNeighbours(row, col);
-      if (board[row][col])
+      for (int col = 0 ; col < boardWidth ; col ++)
       {
-        if (count<2)
+        int count = countNeighbours(row, col);
+        if (board[row][col])
         {
-          board[row][col] = false;
-        } 
-        else if ((count == 2) || (count == 3))
-        {
-          board[row][col] = true;
+          if (count<2)
+          {
+            board[row][col] = false;
+          } 
+          else if ((count == 2) || (count == 3))
+          {
+            board[row][col] = true;
+          }
+          else if (count > 3)
+          {
+            board[row][col] = false;
+          }
         }
-        else if (count > 3)
+        else
         {
-          board[row][col] = false;
-        }
-      }
-      else
-      {
-        if (count == 3)
-        {
-          board[row][col] = true;
+          if (count == 3)
+          {
+            board[row][col] = true;
+          }
         }
       }
     }
