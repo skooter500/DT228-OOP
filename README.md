@@ -15,6 +15,14 @@ Resources
 * [Assignments](Labs/assignments.md)
 * [The git manual - read the first three chapters](http://git-scm.com/documentation)
 * [A video tutorial all about git/github](https://www.youtube.com/watch?v=p_PGUltnB6w)
+
+Week 6
+------
+* [John Conway talks about the Game of Life Video](https://www.youtube.com/watch?v=FdMzngWchDk)
+* [Creationism museum video](https://www.youtube.com/watch?v=TME30pPBw58)
+* [The Processing sketch for the Game of Life we wrote in the class. This has a bug!](Processing Examples/Life)
+* [Lab 6](Labs/index.md)
+* [My implementation of the Game of Life in Pascal from 1991](Tutorials/LIFE.PAS)
  
 Week 5
 ------

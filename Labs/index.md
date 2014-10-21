@@ -1,6 +1,39 @@
 OOP Programming Labs
 ====================
 
+Lab 6
+-----
+Use the implementation of the Game of Life we wrote in the class yesterday as a starting point for this lab. It has a bug that means the simultaion will not evolve as it should. To figure out the bug, work out what should happen to the following cells:
+
+![Sketch](p9.png)
+
+If you figure out the bug and fix it, you can test your game of life by making make this shape:
+
+![Sketch](p7.png)
+
+It should evolve for hundreds of generations, spawning creatures and consuming itself over and over again.
+
+You can check for key presses in your Processing sketches in several ways. One of them is given below:
+
+~~~Java
+if (keyPressed)
+{
+  // Check to see if the q key was pressed
+  if (key == 'q')
+  {
+    println("Q");
+  }
+  ...
+  ...
+~~~
+
+Using this method see if you can implement the following features:
+- The ability to slow down and speed up your Game of Life. You can use the fact that the ```draw``` method is called 60 times a second to achieve this. You could also make use of the ```frameCount``` variable in Processing. Look it up if you are not sure what it does
+- The ability to pause and unpause the sketch if you press the SPACE key.
+- The ability to clear the board or randomise the board
+- The ability to draw cells onto the board with the mouse. You can use the ```mousePressed``` method and the ```mouseX``` and ```mouseY``` variables in Processing to achieve this.
+- The ability to spawn creatures if you press the number keys. You can see the types of creatures you could spawn in the [Wikipedia article about the Game of Life](http://en.wikipedia.org/wiki/Conway's_Game_of_Life).
+
 Lab 5
 -----
 In this lab, you will be taking the sketch and the data we worked on in the class yesterday and creating a sketch that generates this bar chart of monthly Android and IOS music searches:
@@ -37,7 +70,7 @@ To complete the sketch you can use a boolean array. Remember arrays from first y
 
 Here is a skeleton sketch to get you started if you need it, but *feel free to ignore this and just come up with your own solution*:
 
-```Java
+~~~Java
 boolean[] bytes = new boolean[16];
 int centX, centY;
 
@@ -87,7 +120,7 @@ void mousePressed()
   // Put some code here too
   // To toggle the bit on or off based on the mouse position.
 }
-```
+~~~
 
 What I suggest you do is:
 
@@ -114,9 +147,9 @@ Lab 2
 Make a rollover button in Processing. The button should be centred on the window and take up 30% of the width and height of the window. When you roll the mouse over the button, it should change colour from grey to blue:
 Advanced! Make the button into a toggle (click on/click off) button. The button should go red when it is toggled on. In order to do this, you need to make use of the following method in your sketch:
 
-```Java
+~~~Java
 void mousePressed()
-```
+~~~
 
 This method will get called by the Processing framework whenever the mouse in pressed in the window where your sketch is running. Here is a youtube video with the completed sketch:
 
