@@ -11,7 +11,9 @@ If you figure out the bug and fix it, you can test your game of life by making m
 
 ![Sketch](p7.png)
 
-It should evolve for hundreds of generations, spawning creatures and consuming itself over and over again.
+It should evolve for hundreds of generations, spawning creatures and consuming itself over and over again. Here is a youtube video of my version in Processing:
+
+[![YouTube](http://img.youtube.com/vi/z4NAyrGJC5s/0.jpg)](http://www.youtube.com/watch?v=z4NAyrGJC5s)
 
 You can check for key presses in your Processing sketches in several ways. One of them is given below:
 
