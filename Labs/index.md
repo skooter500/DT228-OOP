@@ -3,7 +3,7 @@ OOP Programming Labs
 
 Lab 6
 -----
-Use the implementation of the Game of Life we wrote in the class yesterday as a starting point for this lab. It has a bug that means the simultaion will not evolve as it should. To figure out the bug, work out what should happen to the following cells:
+Use the [implementation of the Game of Life we wrote in the class yesterday](../Processing Examples/Life) as a starting point for this lab. It has a bug that means the simultaion will not evolve as it should. To figure out the bug, work out what should happen to the following cells:
 
 ![Sketch](p9.png)
 
