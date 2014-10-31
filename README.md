@@ -16,6 +16,11 @@ Resources
 * [The git manual - read the first three chapters](http://git-scm.com/documentation)
 * [A video tutorial all about git/github](https://www.youtube.com/watch?v=p_PGUltnB6w)
 
+Week 7
+------
+* [Top health & fitness apps](http://greatist.com/fitness/best-health-fitness-apps)
+* [The Appys](http://www.theappys.ie/) 
+
 Week 6
 ------
 * [John Conway talks about the Game of Life Video](https://www.youtube.com/watch?v=FdMzngWchDk)
