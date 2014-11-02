@@ -1,3 +1,5 @@
+import ddf.minim.*;
+ 
 PFont font;
 int textY;
 
@@ -14,23 +16,27 @@ int gameState = 0;
 int winner = 0;
 int numStars = 100;
 
+Minim minim;//audio context
+AudioPlayer explosion;
+
 void setup()
 {
-  size(1000, 800);  
+  size(1000, 800);
+  minim = new Minim(this);  
   instance = this;
   
   spawnPoints.add(new PVector(50, height / 2));
   spawnPoints.add(new PVector(width - 50, height / 2));
   
   Ship ship = new Ship();
+  ship.shootSound = minim.loadFile("Laser_Shoot10.wav");;
   ship.position = spawnPoints.get(0).get();
-  ship.colour = color(255, 0,0);
   children.add(ship);      
   players.add(ship);
   
   ship = new Ship();
+  ship.shootSound = minim.loadFile("Laser_Shoot20.wav");
   ship.position = spawnPoints.get(1).get();
-  ship.colour = color(0, 0,255);
   ship.forward = 'i';
   ship.left = 'j';
   ship.right = 'l';
@@ -49,7 +55,7 @@ void setup()
   }
   
   font = loadFont("Checkbook-48.vlw");    
-  textY = 20;
+  explosion = minim.loadFile("Explosion4.wav");
 }
 
 void applyGravity()
@@ -92,7 +98,7 @@ void reset()
       }
   }
   players.get(0).colour = color(255, 0,0);
-  players.get(1).colour = color(0, 0,255);
+  players.get(1).colour = color(0, 255,0);
   textY = 20;
 }
 
@@ -114,7 +120,7 @@ void gameOver()
   background(0);
   fill(255);
   printText("SpaceWars!", 48, 200);
-  printText("Game Over", 32, 350);  
+  printText("Game Over", 48, 350);  
   fill(players.get(winner).colour);
   printText("Player " + (winner + 1) + " is the winner", 32, 500);    
   fill(255);
@@ -154,6 +160,8 @@ void game()
           player.lives --;
           player.resetShield();
           player.position = spawnPoints.get(j).get();
+          explosion.rewind();
+          explosion.play();
         }
       }      
     } 
@@ -167,6 +175,8 @@ void game()
           player.lives --;
           player.resetShield();
           player.position = spawnPoints.get(j).get();
+          explosion.rewind();
+          explosion.play();
         }
       }
     } 

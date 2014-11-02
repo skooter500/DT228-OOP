@@ -11,11 +11,14 @@ class Ship extends GameObject
   char left;
   char right;
   char fire;
+  char hyperDrive;
   color colour;
   boolean shield = false;
   boolean drawShield = true;
   int shieldEllapsedFrames;
   int shieldToPassFrames;
+  AudioPlayer shootSound;
+  boolean jet;
   
   Ship()
   {
@@ -30,6 +33,7 @@ class Ship extends GameObject
     left = 'a';
     right = 'd';
     fire = 's';    
+    hyperDrive = 'e';
   }
   
   void update()
@@ -39,7 +43,12 @@ class Ship extends GameObject
       if (SpaceWars.checkKey(forward))
       {     
           force.add(PVector.mult(look, newtons));
+          jet = true;
       }      
+      else
+      {
+        jet = false;
+      }
       if (SpaceWars.checkKey(left))
       {
         theta -= timeDelta;
@@ -55,6 +64,8 @@ class Ship extends GameObject
       
       if (SpaceWars.checkKey(fire)  && elapsed > toPass)
       {
+        shootSound.rewind();
+        shootSound.play();
         Lazer lazer = new Lazer();
         lazer.position = position.get();
         PVector offset = look.get();
@@ -143,9 +154,11 @@ class Ship extends GameObject
     
     line(- halfwidth, halfheight, 0, 0);
     line(halfwidth, halfheight, 0, 0);
-    float lineLength = 50.0f;
-    
-    
+    if (jet)
+    {
+      line(-2, 5, 0, 10);
+      line(+2, 5, 0, 10);
+    }
     popMatrix();
     
     super.draw();    
