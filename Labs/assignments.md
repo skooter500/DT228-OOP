@@ -39,6 +39,6 @@ Rules!
 - Any suspected plagorism will be dealt with according to DIT General Assessment Regulations. This could mean expulsion from DIT. I will personally grade all assignments.
 - There will be a feedback session after the assignment where you will have the opportunity to get individual feedback on your submissiona and have your mark explained to you.
 - All assignments should be submitted through Google Classroom. Go to http://classroom.google.com and register using the code: codymp
-- The date for submission is Monday 7 November @ 10am. 
+- The date for submission is Tuesday 4 November @ 4pm. 
 - All assignment submissions must be demoed in the lab that week.
 - If you need to submit an assignment late, you must submit a PC/1 form to the exams office.

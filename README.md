@@ -25,6 +25,7 @@ Week 7
 * [All about the Appys](http://1drv.ms/1rNQudK)
 * [Apply for the Appcademy here](http://www.theappys.ie/)
 * [The Game of Life fixed](Processing Examples/Life)
+* [Top health & fitness apps](http://greatist.com/fitness/best-health-fitness-apps)
 
 Week 6
 ------
