@@ -21,7 +21,7 @@ AudioPlayer explosion;
 
 void setup()
 {
-  size(1000, 800);
+  size(displayWidth, displayHeight);
   minim = new Minim(this);  
   instance = this;
   
