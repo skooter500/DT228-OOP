@@ -91,12 +91,20 @@ void randomise()
   }
 }
 
+void mousePressed()
+{
+  int row = mouseY / cellHeight; 
+  int col = mouseX / cellWidth;
+  board[row][col] = ! board[row][col];
+}
+
+void keyPressed()
+{
+  paused = ! paused;
+}
+
 void update()
 {
-  if (keyPressed)
-  {
-    paused = ! paused;
-  }
   
   if (! paused)
   {

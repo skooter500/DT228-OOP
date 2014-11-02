@@ -16,6 +16,16 @@ Resources
 * [The git manual - read the first three chapters](http://git-scm.com/documentation)
 * [A video tutorial all about git/github](https://www.youtube.com/watch?v=p_PGUltnB6w)
 
+Week 8
+------
+
+Week 7
+------
+* No lecture this week
+* [All about the Appys](http://1drv.ms/1rNQudK)
+* [Apply for the Appcademy here](http://www.theappys.ie/)
+* [The Game of Life fixed](Processing Examples/Life)
+
 Week 6
 ------
 * [John Conway talks about the Game of Life Video](https://www.youtube.com/watch?v=FdMzngWchDk)
