@@ -19,9 +19,14 @@ int numStars = 100;
 Minim minim;//audio context
 AudioPlayer explosion;
 
+boolean sketchFullScreen() {
+  return true;
+}
+
 void setup()
 {
   size(displayWidth, displayHeight);
+  noCursor();
   minim = new Minim(this);  
   instance = this;
   
@@ -41,10 +46,10 @@ void setup()
   ship.left = 'j';
   ship.right = 'l';
   ship.fire = 'k';
+  ship.hyperDrive = 'o';
   children.add(ship);  
   players.add(ship);  
-
-  
+ 
   BigStar star = new BigStar();
   children.add(star);
   stars.add(star);    
@@ -188,7 +193,7 @@ void game()
   {
     Ship player = players.get(i);
     fill(player.colour);
-    printText("Player: " + (i + 1) + " Lives: " + player.lives, 32, th * (i + 1));
+    printText("Player: " + (i + 1) + " Hyperdrive: " + player.hyper + " Lives: " + player.lives, 32, th * (i + 1));
     if (player.lives == 0)
     {
       gameState = 2;

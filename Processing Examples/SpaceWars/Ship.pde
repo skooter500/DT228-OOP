@@ -6,6 +6,7 @@ class Ship extends GameObject
   float elapsed = toPass;
   
   int lives = 5;
+  int hyper  = 5;
   
   char forward;
   char left;
@@ -36,6 +37,8 @@ class Ship extends GameObject
     hyperDrive = 'e';
   }
   
+  boolean lastPressed = false;
+  
   void update()
   {                 
       elapsed += timeDelta;
@@ -58,6 +61,19 @@ class Ship extends GameObject
       {
         theta += timeDelta;
       }
+      
+      if (SpaceWars.checkKey(hyperDrive) && hyper > 0 && ! lastPressed)
+      {
+        position.x = random(0, width);
+        position.y = random(0, height);        
+        hyper --;
+        lastPressed = true;
+      }
+      if (! SpaceWars.checkKey(hyperDrive))
+      {
+        lastPressed = false;
+      }
+      
       
       look.x = sin(theta);
       look.y = -cos(theta);
