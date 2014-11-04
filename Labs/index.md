@@ -3,6 +3,9 @@ OOP Programming Labs
 
 Lab 7
 -----
+
+Form a team, branstorm an idea and [enter the Appcademy](http://www.theappys.ie/). Do it now!
+
 Study the [code we wrote in the class yesterday](../Processing Examples/SpaceWarsWIP) very carefully and use it as starter code for this lab. Ive added calls to ```pushMatrix``` and ```popMatrix``` to the ```draw``` method of the ```Player``` class. We will discuss these on Friday.
 
 Be sure you know how to make a class in Processing. Read the documentation and watch the videos if necessary. To complete this lab you also need to know:
