@@ -18,6 +18,11 @@ Resources
 
 Week 8
 ------
+* [Objects & classes in Processing](https://www.processing.org/reference/class.html)
+* [Spacewar from 1962](https://www.youtube.com/watch?v=Rmvb4Hktv7U)
+* [An interview with Steve Russell the games inventor](https://www.youtube.com/watch?v=PnJvZHegg8I)
+* [Another Spacewar video](https://www.youtube.com/watch?v=X58CdkLVr6A)
+* [The code we wrote in the class](Processing Examples/SpaceWarsWIP)
 
 Week 7
 ------

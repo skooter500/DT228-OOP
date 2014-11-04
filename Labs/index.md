@@ -1,6 +1,33 @@
 OOP Programming Labs
 ====================
 
+Lab 7
+-----
+Study the [code we wrote in the class yesterday](../Processing Examples/SpaceWarsWIP) very carefully and use it as starter code for this lab. Ive added calls to ```pushMatrix``` and ```popMatrix``` to the ```draw``` method of the ```Player``` class. We will discuss these on Friday.
+
+Be sure you know how to make a class in Processing. Read the documentation and watch the videos if necessary. To complete this lab you also need to know:
+- How classes and objects work
+- How fields and methods work
+- How constructors work
+- How ```translate``` and ```rotate``` works.
+- How the right angled triangle works
+- How the unit circle works
+- How radians work
+
+The aim of this lab is to make a Star class. It should have the following fields:
+- points - A float giving the number of points on the star
+- radius - The radius of the star
+
+The "depth" of the points should be half the radius.
+
+Your star class should have the following methods:
+
+- Default and paramaterised constructors 
+- A draw method. You should draw the star procedurally. I.e. calculate the points using code.
+
+Bonus!
+- Add an additional field theta that controlls the rotation of the star.
+
 Lab 6
 -----
 Use the [implementation of the Game of Life we wrote in the class yesterday](../Processing Examples/Life) as a starting point for this lab. It has a bug that means the simultaion will not evolve as it should. To figure out the bug, work out what should happen to the following cells:
