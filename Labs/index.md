@@ -6,7 +6,7 @@ Lab 8
 
 ### Part 1
 
-You an use the code we worked on in the class to start this lab. The aim of this lab is to make a class called Bug that draws this bug:
+You an use the [code we worked on in the class](Processing Examples/SpaceWarsWIP) to start this lab. The aim of this lab is to make a class called Bug that draws this bug:
 
 ![Sketch](p10.png)
 
