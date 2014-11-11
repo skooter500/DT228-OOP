@@ -6,6 +6,8 @@ Lab 8
 
 ### Part 1
 
+Take 5 minutes to give me your feedback by filling out [this short feedback form](https://docs.google.com/forms/d/1EMmLeWM7ZLCP9Pvndc5YwPcixYHCnaMgHzEQc6-XQZE/viewform) on the assignment you just did.
+
 You an use the [code we worked on in the class](Processing Examples/SpaceWarsWIP) to start this lab. The aim of this lab is to make a class called Bug that draws this bug:
 
 ![Sketch](p10.png)
