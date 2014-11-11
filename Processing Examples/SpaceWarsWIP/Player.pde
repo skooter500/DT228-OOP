@@ -54,12 +54,16 @@ class Player
   
   void move()
   {
+    float lx, ly;
+    lx = sin(theta);
+    ly = -cos(theta);
     if (keyPressed)
     {
       switch (key)
       {
         case 'w':
-          y = y -1;
+          x = x + lx;
+          y = y + ly;
           break;
         case 's':
           y = y + 1;

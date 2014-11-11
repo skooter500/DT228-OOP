@@ -1,6 +1,30 @@
 OOP Programming Labs
 ====================
 
+Lab 8
+-----
+
+### Part 1
+
+You an use the code we worked on in the class to start this lab. The aim of this lab is to make a class called Bug that draws this bug:
+
+![Sketch](p10.png)
+
+You should add the following fields:
+- x and y
+- size
+
+Add the following methods:
+- A default and a parameterised constructor
+- A draw method
+
+In the draw method, you should draw the bug shape using lines. The x and y fields represent the centre of the bug while the size controls the width and height of the bug (it should fit into a square). You should calculate everything relative to the size. In other words changing the size field should draw the bug bigger or smaller.
+
+Create several instances of the bug in the sketch to test to see if it works.
+
+### Part 2
+Finish off the star class!
+
 Lab 7
 -----
 
