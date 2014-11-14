@@ -16,6 +16,10 @@ Resources
 * [The git manual - read the first three chapters](http://git-scm.com/documentation)
 * [A video tutorial all about git/github](https://www.youtube.com/watch?v=p_PGUltnB6w)
 
+Week 9
+------
+* [TaraSquares solution](https://github.com/skooter500/TaraSquares)
+
 Week 8
 ------
 * [Objects & classes in Processing](https://www.processing.org/reference/class.html)
