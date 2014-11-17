@@ -16,17 +16,25 @@ Resources
 * [The git manual - read the first three chapters](http://git-scm.com/documentation)
 * [A video tutorial all about git/github](https://www.youtube.com/watch?v=p_PGUltnB6w)
 
+Week 10
+-------
+* [PVector in Processing](https://www.processing.org/tutorials/pvector/)
+
 Week 9
 ------
 * [TaraSquares solution](https://github.com/skooter500/TaraSquares)
+* [Lab 8](Labs/index.md)
 
 Week 8
 ------
+* [Objects and classes in Processing lecture](https://www.youtube.com/watch?v=A0lrjE9MGRk&list=UUyCtwxWozKoX3iMd75S3N1g)
 * [Objects & classes in Processing](https://www.processing.org/reference/class.html)
 * [Spacewar from 1962](https://www.youtube.com/watch?v=Rmvb4Hktv7U)
 * [An interview with Steve Russell the games inventor](https://www.youtube.com/watch?v=PnJvZHegg8I)
 * [Another Spacewar video](https://www.youtube.com/watch?v=X58CdkLVr6A)
 * [The code we wrote in the class](Processing Examples/SpaceWarsWIP)
+* [Lab 7](Labs/index.md)
+* [Lab 7 Solution](Processing Examples/StarSketch)
 
 Week 7
 ------
@@ -35,6 +43,7 @@ Week 7
 * [Apply for the Appcademy here](http://www.theappys.ie/)
 * [The Game of Life fixed](Processing Examples/Life)
 * [Top health & fitness apps](http://greatist.com/fitness/best-health-fitness-apps)
+
 
 Week 6
 ------
