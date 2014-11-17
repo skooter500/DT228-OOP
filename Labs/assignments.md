@@ -1,5 +1,16 @@
 # Object Oriented Programming Assignments 2014/2015
 
+## Assignment 2
+Rubric (from last year)
+
+| Grade | Description |
+| ------|-------------|
+| First | A project that looks great. All the art is procedural. There is audio. There a significant amount of clever animation or gameplay (if the project is a game). For example multiple "modes" or "screens". The assignment has lots of functionality. The code is organised into classes that make use of inheritance and polymorphism. There is lots of self written code. There is a lot of novelty and originality. All the code is written by the student. The student will have made use of vectors, transforms and classes to create autonomous elements in the assignment. The student might be loading content from text files. Everything works|
+| 2.1 | The project looks good. There is a some animation or gameplay. The student put in a good effort. Some features may not be complete or entirely working. Probably no file IO, buts should be while loops, for loops if statements etc to control aspects of the assignment. The student may have used classes, but possibly not inheritance and polymorphism |
+| 2.2 | The project looks so so, but is pretty basic. There should be some animation or gameplay but significant issues that the student couldn't resolve. The student may have used sprites instead of drawing everything. All the movement and animation code will be pretty basic for example colours changing each frame or movement controlled by variables that just update each frame. Little or no control code. There is not much code, maybe a page or two|
+| Pass | All code in one file. Around a hundred lines of code. Looks like it could have been completed in an hour or two. Mostly drawing code, little or no controling code. Little or no functionality. Lots of code acquired from other sources |
+| Fail | Something very basic that looks like it could have been completed in an hour. Just drawing code, no control code. The assignment has no interactivity. Significant unaddressed technical problems  |
+
 ## Assignment 1
 Use the skills you are learning on the course to create a version of this game in Processing:
 

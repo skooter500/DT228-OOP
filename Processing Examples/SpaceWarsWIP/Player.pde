@@ -1,9 +1,6 @@
-class Player
+class Player extends GameObject
 {
-  float x, y;
   float w, h;
-  color colour;
-  float theta;
   
   Player(float x, float y, float w, float h)
   {
@@ -35,7 +32,7 @@ class Player
     theta = 0;
   }
   
-  void draw()
+  void display()
   {
     pushMatrix();
     translate(x, y);   

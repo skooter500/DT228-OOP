@@ -1,6 +1,5 @@
-class Polygon
+class Polygon extends GameObject
 {
-  float x, y;
   float radius;
   float sides;
   
@@ -21,13 +20,13 @@ class Polygon
   {
   }
   
-  void draw()
+  void display()
   {
     pushMatrix();
     translate(x, y);
     
     float px, py;
-    float lastx = 0, lasty = radius;
+    float lastx = 0, lasty = -radius;
     float theta = 0;
     float thetaInc = TWO_PI / sides;
     
@@ -35,7 +34,7 @@ class Polygon
     {
       theta += thetaInc;
       px = sin(theta) * radius;
-      py = cos(theta) * radius;
+      py = -cos(theta) * radius;
       line(lastx, lasty, px, py);
       lastx = px;
       lasty = py;
