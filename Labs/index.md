@@ -1,6 +1,25 @@
 OOP Programming Labs
 ====================
 
+Lab 9
+-----
+Be sure you know how inheritance, polymorphism and the [ArrayList](https://www.processing.org/reference/ArrayList.html) works in Processing! Google these if you need to
+
+The aim of this lab is to give the ships the ability to shoot bullets.
+
+- Get the SpaceWarsWIP sketch we were working on in class on Monday as starter code for this or use your own code from the class.
+- Refactor the sketch to use an ```ArrayList``` of ```GameObject``` types instead of using an ordinary array. An ```ArrayList``` can grow and shrink, which is useful because it means we can add and remove things from the screen easily.
+- Modify the ```Bullet``` class so that it moves. Look at the ```Player``` class for an example of how this can be done. You could use add a ```speed``` variable to control the speed of movement.
+- Make it so that when the player presses the SPACE key, you create a new ```Bullet``` instance and add it to the ```ArrayList``` of GameObjects in the main sketch
+- Test all of this to make sure your sketch works!
+- Now see if you can figure out how to limit the bullet fire rate to 5 bullets per second. Hint: Processing is calling your draw method 60 times a second.
+- Finally see if you can figure out how to get the Bullet's instances removed from the list when they go outside the bounds of the screen. I like to do this by:
+	-  Adding a boolean field called ```alive``` to the base class ```GameObject```. 
+	-  Setting this to be ```true``` in the constructor
+	-  In the Bullet ```move``` method, setting ```alive``` to be ```false``` if the x and y are ourside the bounds of the screen
+	-  In the sketch update method, iterating through all the ```GameObject```s and removing those whose alive flag is set to be ```false```.
+
+
 Lab 8
 -----
 

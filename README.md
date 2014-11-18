@@ -18,7 +18,12 @@ Resources
 
 Week 10
 -------
-* [PVector in Processing](https://www.processing.org/tutorials/pvector/)
+* This video didn't come out very well, so Im not putting it online!
+* [A cool video from Daniel Shiffman about Polymorphism](http://vimeo.com/60187931)
+* [The code we wrote in the class](Processing Examples/SpaceWarsWIP)
+* [Inheritance & polymorphism in Processing examples from the book](http://www.learningprocessing.com/examples/chapter-22/example-22-2/)
+* [ArrayList in Processing](https://www.processing.org/reference/ArrayList.html)
+* [Lab 8](Labs/index.md)
 
 Week 9
 ------
