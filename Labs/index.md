@@ -1,6 +1,23 @@
 OOP Programming Labs
 ====================
 
+Lab 10
+------
+We did some work on this in the class yesterday, so you can start with the [code we worked on](../Processing Examples/SpaceWarsWIP).
+
+To complete this lab:
+
+- Add a field to the ```Player``` class called ```fireRate```. This field controls how often the player can fire. For example, setting this to be 5 means the player can fire 5 bulets per second.
+- Only allow the player to fire at the fire rate. I want you to figure out how to do this yourself, but consider that Processing updates the screen 60 times per second, so you know that 1/60 of a second has ellapsed whenever the ```Update``` method gets called.
+- Allow bullets to wrap around the screen. In other words, when a bullet goes off the left side of the screen, it reappears on the right side of the screen, travelling at the same velocity.
+- Allow bullets to stay alive for 5 seconds and then get removed from the game.
+- Use encapsulation as much as possible in your solution. In other words, bullets should look after themselves!
+
+Bonus:
+Give the player a lives field and decrement this whenever a bullet hits the player. The bullet should also get removed from the game when this happens.
+
+When you have completed the above, logon to webcourses. Click Content and answer the MCQ questions for this lab. This will become available at 5pm and become unavailable at 6:30pm.
+
 Lab 9
 -----
 Be sure you know how inheritance, polymorphism and the [ArrayList](https://www.processing.org/reference/ArrayList.html) works in Processing! Google these if you need to
