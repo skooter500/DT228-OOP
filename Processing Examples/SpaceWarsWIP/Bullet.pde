@@ -8,6 +8,11 @@ class Bullet extends GameObject
   
   void move()
   {
+    float lx = sin(theta);
+    float ly = -cos(theta);
+    float speed = 10.0f;
+    x += lx * speed;
+    y += ly * speed;
   }
   
   void display()
