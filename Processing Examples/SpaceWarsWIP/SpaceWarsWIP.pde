@@ -18,10 +18,17 @@ BigStar star;
 void draw()
 {
   background(0);
+  println(objects.size());
   for (int i = 0 ; i < objects.size() ; i ++)
   {
     objects.get(i).move();
     objects.get(i).display();
+    if (! objects.get(i).alive)
+    {
+      objects.remove(i);
+    }
   }  
+  
+  
 }
 

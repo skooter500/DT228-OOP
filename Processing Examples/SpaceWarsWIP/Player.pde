@@ -2,6 +2,12 @@ class Player extends GameObject
 {
   float w, h;
   
+  float timeDelta = 1.0f / 60.0f;
+  
+  float fireRate = 10.0f;
+  float ellapsed = 0.0f;
+  float toPass = 1.0f / fireRate;
+  
   Player(float x, float y, float w, float h)
   {
     this.x = x;
@@ -50,7 +56,8 @@ class Player extends GameObject
   }
   
   void move()
-  {
+  {    
+    ellapsed += timeDelta;
     float lx, ly;
     lx = sin(theta);
     ly = -cos(theta);
@@ -59,6 +66,7 @@ class Player extends GameObject
       switch (key)
       {
         case 'w':
+          position.add(velocity);
           x = x + lx;
           y = y + ly;
           break;
@@ -72,11 +80,16 @@ class Player extends GameObject
           theta += 0.1f;
           break;  
         case ' ':
-          Bullet bullet = new Bullet();
-          bullet.x = x;
-          bullet.y = y;
-          bullet.theta = theta;
-          objects.add(bullet);
+          if (ellapsed > toPass)
+          {
+            Bullet bullet = new Bullet();
+            bullet.x = x;
+            bullet.y = y;
+            bullet.theta = theta;
+            objects.add(bullet);
+            ellapsed = 0.0f;
+          }
+          break;
       }
     }
   }
