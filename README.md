@@ -16,6 +16,10 @@ Resources
 * [The git manual - read the first three chapters](http://git-scm.com/documentation)
 * [A video tutorial all about git/github](https://www.youtube.com/watch?v=p_PGUltnB6w)
 
+Week 11
+-------
+* [Dogs Cats & Sheep]()
+
 Week 10
 -------
 * This video didn't come out very well, so Im not putting it online!
@@ -24,6 +28,7 @@ Week 10
 * [Inheritance & polymorphism in Processing examples from the book](http://www.learningprocessing.com/examples/chapter-22/example-22-2/)
 * [ArrayList in Processing](https://www.processing.org/reference/ArrayList.html)
 * [Lab 8](Labs/index.md)
+* [Polymorphism in Processing tutorial video also games jams and things!](http://youtu.be/Yd1yHosYkhY)
 
 Week 9
 ------

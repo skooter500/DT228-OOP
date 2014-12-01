@@ -9,6 +9,9 @@ Create a retro-style game to run on this beautiful arcade cabinet.
 
 If you need inspiration, check out:
 
+[![Video](http://img.youtube.com/vi/S575a92AsuQ/0.jpg)](http://www.youtube.com/watch?v=S575a92AsuQ)
+
+
 [![Video](http://img.youtube.com/vi/dzN2pgL0zeg/0.jpg)](http://www.youtube.com/watch?v=dzN2pgL0zeg)
 
 [![Video](http://img.youtube.com/vi/CQVjyFmwpiA/0.jpg)](http://www.youtube.com/watch?v=CQVjyFmwpiA)
@@ -37,6 +40,13 @@ I want to bring the cabinet to the State of Play festival and the Project fair w
 - The assignment is due to be demoed in the lab the week of 19 January.
 
 Alternatively! You can form a team to do an Imagine Cup project, however the rubrick below aplies regardless of what project you decide to do.
+
+Marks:
+
+Code: 30%
+Gameplay:30%
+Project management: 20%
+Visuals: 20%
 
 Rubric
 
