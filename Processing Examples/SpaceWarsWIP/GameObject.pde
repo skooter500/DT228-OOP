@@ -1,6 +1,7 @@
 class GameObject
 {
-  PVector position = new PVector(width / 2, height / 2);
+  PVector position;
+  PVector forward;
   float theta;
   color colour;
   boolean alive;
@@ -8,8 +9,8 @@ class GameObject
   GameObject()
   {
     alive = true;
-    position.x = width / 2;
-    position.y = height / 2;
+    position = new PVector(width / 2, height / 2);
+    forward = new PVector(0, -1);
   }
 
   void move()

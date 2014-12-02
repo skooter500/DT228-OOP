@@ -4,8 +4,8 @@ class Bug extends GameObject
   float halfBugWidth;
   Bug()
   {
-    x = width / 2;
-    y = height / 2;
+    position.x = width / 2;
+    position.y = height / 2;
     halfBugWidth = bugWidth / 2;
   }
   
@@ -17,7 +17,7 @@ class Bug extends GameObject
   void display()
   {
     pushMatrix();
-    translate(x, y);
+    translate(position.x, position.y);
     rotate(theta);
     // Draw the bug
     stroke(255);

@@ -1,0 +1,168 @@
+Adams, Gerry	SF	Louth	0.00	48643.52	
+Adams, Gerry	SF	Louth	0.00	48643.52	
+Bannon, James	FG	Longford-Westmeath	0.00	40542.72	
+Barrett, Sean	CC	Dun Laoghaire	0.00	13111.75	
+Barry, Tom	FG	Cork East	0.00	50540.23	
+Boyd Barrett, Richard	PBP	Dun Laoghaire	0.00	31865.51	
+Breen, Pat	FG	Clare	0.00	51179.23	
+Broughan, Tommy	Lab	Dublin North-East	0.00	22821.43	
+Browne, John	FF	Wexford	0.00	49586.8	
+Bruton, Richard	FG	Dublin North-Central	6709.68	10684.33	
+Burton, Joan	Lab	Dublin West	0.00	10684.33	
+Butler, Ray	FG	Meath West	608.82	45478.95	
+Buttimer, Jerry	FG	Cork South-Central	586.14	50645.3	
+Byrne, Catherine	FG	Dublin South-Central	9030.2	31865.51	
+Byrne, Eric	Lab	Dublin South-Central	0.00	22821.43	
+Calleary, Dara	FF	Mayo	0.00	49715.44	
+Cannon, Ciaran	FG	Galway East	1696.16	17875.81	
+Carey, Joe	FG	Clare	0.00	51179.23	
+Coffey, Paudie	FG	Waterford	0.00	40415.25	
+Collins, aine	FG	Cork North-West	0.00	51808.09	
+Collins, Joan	PBP	Dublin South-Central	1811.05	31865.51	
+Collins, Niall	FF	Limerick	0.00	50225.8	
+Colreavy, Michael	SF	Sligo-North Leitrim	0.00	50225.8	
+Conaghan, Michael	Lab	Dublin South-Central	0.00	22821.43	
+Conlan, Sean	FG	Cavan-Monaghan	0.00	40542.72	
+Connaughton, Paul	FG	Galway East	0.00	49911.37	
+Conway, Ciara	Lab	Waterford	7027.39	50225.8	
+Coonan, Noel	FG	Tipperary North	0.00	49650.4	
+Corcoran Kennedy, Marcella	FG	Laois-Offaly	0.00	49586.8	
+Costello, Joe	Lab	Dublin Central	0.00	31865.51	
+Coveney, Simon	FG	Cork South-Central	37.74	17982.33	
+Cowen, Barry	FF	Laois-Offaly	0.00	48643.52	
+Creed, Michael	FG	Cork North-West	0.00	43403.01	
+Creighton, Lucinda	FG	Dublin South-East	0.00	17442.37	
+Crowe, Sean	SF	Dublin South-West	2759.26	31865.51	
+Daly, Clare	SP	Dublin North	0.00	22821.43	
+Daly, Jim	FG	Cork South-West	0.00	52447.09	
+Deasy, John	FG	Waterford	0.00	41181.72	
+Deenihan, Jimmy	FG	Kerry North-West Limerick	12.85	11536.04	
+Deering, Pat	FG	Carlow-Kilkenny	3324.76	47375.66	
+Doherty, Pearse	SF	Donegal South-West	0.00	51808.09	
+Doherty, Regina	FG	Meath East	3841.48	45478.95	
+Donnelly, Stephen	Ind	Wicklow	11705	45478.95	
+Donohoe, Paschal	FG	Dublin Central	0.00	31603.6	
+Dooley, Timmy	FF	Clare	0.00	50529.23	
+Dowds, Robert	Lab	Dublin Mid-West	0.00	12678.57	
+Doyle, Andrew	FG	Wicklow	4392.13	45478.95	
+Durkan, Bernard	FG	Kildare North	0.00	36434.87	
+Ellis, Dessie	SF	Dublin North-West	0.00	31865.51	
+English, Damien	FG	Meath West	2196.8	47375.66	
+Farrell, Alan	FG	Dublin North	7730.9	31865.51	
+Feighan, Frank	FG	Roscommon-South Leitrim	0.00	49911.37	
+Ferris, Anne	Lab	Wicklow	0.00	31865.51	
+Ferris, Martin	SF	Kerry North-West Limerick	9044.08	43403.01	
+Fitzgerald, Frances	FG	Dublin Mid-West	532.11	17281.81	
+Fitzpatrick, Peter	FG	Louth	0.00	47893.52	
+Flanagan, Charles	FG	Laois-Offaly	8248.06	47375.66	
+Flanagan, Luke 'Ming'	Ind	Roscommon-South Leitrim	250.46	49911.37	
+Flanagan, Terence	FG	Dublin North-East	0.00	22821.43	
+Fleming, Sean	FF	Laois-Offaly	0.00	39599.44	
+Fleming, Tom	Ind	Kerry South	5477.36	43025.01	
+Gilmore, Eamon	Lab	Dun Laoghaire	7362.81	17543.72	
+Grealish, Noel	Ind	Galway West	0.00	41496.15	
+Griffin, Brendan	FG	Kerry South	0.00	43403.01	
+Halligan, John	Ind	Waterford	1125.89	49911.37	
+Hannigan, Dominic	Lab	Meath East	0.00	45025.3	
+Harrington, Noel	FG	Cork South-West	0.00	53714.95	
+Harris, Simon	FG	Wicklow	1472.64	31865.51	
+Hayes, Brian	FG	Dublin South-West	0.00	10684.34	
+Hayes, Tom	FG	Tipperary South	0.00	49911.37	
+Healy-Rae, Michael	Ind	Kerry South	0.00	44042.01	
+Healy, Seamus	WUAG	Tipperary South	0.00	49911.37	
+Heydon, Martin	FG	Kildare South	0.00	45478.95	
+Higgins, Joe	SP	Dublin West	0.00	24485.7	
+Hogan, Phil	FG	Carlow-Kilkenny	11.9	16633.51	
+Howlin, Brendan	Lab	Wexford	0.00	11351.73	
+Humphreys, Kevin	Lab	Dublin South-East	15471.84	31865.51	
+Humphries, Heather	FG	Cavan-Monaghan	1254.09	49586.8	
+Keating, Derek	FG	Dublin Mid-West	730.01	31865.51	
+Keaveney, Colm	Lab	Galway East	0.00	50540.23	
+Kehoe, Paul	FG	Wexford	3975.23	18300.55	
+Kelleher, Billy	FF	Cork North-Central	0.00	49715.45	
+Kelly, Alan	Lab	Tipperary North	0.00	17160.02	
+Kenny, Enda	FG	Mayo	0.00	11509.18	
+Kenny, Sean	Lab	Dublin North-East	0.00	22821.43	
+Kirk, Seamus	FF	Louth	0.00	37490.62	
+Kitt, Michael	FF	Galway East	0.00	39860.24	
+Kyne, Sean	FG	Galway West	0.00	50540.23	
+Lawlor, Anthony	FG	Kildare North	3741.88	45478.95	
+Lenihan, Brian	FF	Dublin West	0.00	9189.88	
+Lowry, Michael	Ind	Tipperary North	0.00	40887.29	
+Lynch, Ciaran	Lab	Cork South-Central	96.52	51179.23	
+Lynch, Kathleen	Lab	Cork North-Central	2635.41	17982.34	
+Lyons, John	Lab	Dublin North-West	0.00	22821.43	
+Mac Lochlainn, Padraig	SF	Donegal North-East	454.23	51174.19	
+Maloney, Eamonn	Lab	Dublin South-West	0.00	0	
+Martin, Micheal	FF	Cork South-Central	3510.02	51179.23	
+Mathews, Peter	FG	Dublin South	0.00	22821.43	
+McCarthy, Michael	Lab	Cork South-West	0.00	42919.67	
+McConalogue, Charlie	FF	Donegal North-East	1038.61	51808.09	
+McDonald, Mary Lou	SF	Dublin Central	0.00	31865.51	
+McEntee, Shane	FG	Meath East	0.00	18206.12	
+McFadden, Nicky	FG	Longford-Westmeath	0.00	49143.75	
+McGinley, Dinny	FG	Donegal South-West	13.39	18063.77	
+McGrath, Finian	Ind	Dublin North-Central	0.00	22821.43	
+McGrath, Mattie	Ind	Tipperary South	0.00	50225.8	
+McGrath, Michael	FF	Cork South-Central	0.00	51179.23	
+McGuinness, John	FF	Carlow-Kilkenny	0.00	49587.1	
+McHugh, Joe	FG	Donegal North-East	2594.69	51808.09	
+McLellan, Sandra	SF	Cork East	4988.34	50540.23	
+McLoughlin, Tony	FG	Sligo-North Leitrim	0.00	50540.23	
+McNamara, Michael	Lab	Clare	0.00	50225.8	
+Mitchell O'Connor, Mary	FG	Dun Laoghaire	0.00	31865.51	
+Mitchell, Olivia	FG	Dublin South	0.00	22821.43	
+Moynihan, Michael	FF	Cork North-West	0.00	51808.09	
+Mulherin, Michelle	FG	Mayo	0.00	51179.23	
+Murphy, Catherine	Ind	Kildare North	2695.97	21722.65	
+Murphy, Dara	FG	Cork North-Central	0.00	51179.23	
+Murphy, Eoghan	FG	Dublin South-East	2865.38	21722.65	
+Nash, Gerald	Lab	Louth	0.00	45478.95	
+Naughten, Denis	FG	Roscommon-South Leitrim	0.00	49911.37	
+Neville, Dan	FG	Limerick	0.00	41496.15	
+Nolan, Derek	Lab	Galway West	0.00	50225.8	
+Noonan, Michael	FG	Limerick City	0.00	11481.88	
+Nulty, Patrick	Lab	Dublin West	1129.02	6790.06	
+O Caolain, Caoimhghin	SF	Cavan-Monaghan	0.00	49586.8	
+O Cuiv, eamon	FF	Galway West	213.72	49715.44	
+O Fearghail, Sean	FF	Kildare South	0.00	36434.87	
+O Riordain, Aodhan	Lab	Dublin North-Central	4454.64	31865.51	
+O Snodaigh, Aengus	SF	Dublin South-Central	0.00	31865.51	
+O'Brien, Jonathan	SF	Cork North-Central	323.45	51179.23	
+O'Dea, Willie	FF	Limerick City	0.00	50225.8	
+O'Donnell, Kieran	FG	Limerick City	0.00	41181.72	
+O'Donovan, Patrick	FG	Limerick	0.00	50540.23	
+O'Dowd, Fergus	FG	Louth	1182.45	17484.58	
+O'Mahony, John	FG	Mayo	0.00	41181.72	
+O'Reilly, Joe	FG	Cavan-Monaghan	0.00	48395.3	
+O'Sullivan, Jan	Lab	Limerick City	1057.43	18327.86	
+O'Sullivan, Maureen	Ind	Dublin Central	678.57	22821.43	
+Penrose, Willie	Lab	Longford-Westmeath	0.00	15757.15	
+Perry, John	FG	Sligo-North Leitrim	12.17	11468.46	
+Phelan, Ann	Lab	Carlow-Kilkenny	0.00	40542.72	
+Phelan, John Paul	FG	Carlow-Kilkenny	0.00	49395.3	
+Pringle, Thomas	Ind	Donegal South-West	0.00	42135.15	
+Quinn, Ruairi	Lab	Dublin South-East	13838.11	17543.72	
+Rabbitte, Pat	Lab	Dublin South-West	0.00	10684.33	
+Reilly, James	FG	Dublin North	702.62	18125.14	
+Ring, Michael	FG	Mayo	0.00	11515.79	
+Ross, Shane	Ind	Dublin South	12048.79	31672.05	
+Ryan, Brendan	Lab	Dublin North	1395.09	35981.22	
+Shatter, Alan	FG	Dublin South	0.00	10684.33	
+Sherlock, Sean	Lab	Cork East	0.00	11643.19	
+Shortall, ROisin	Lab	Dublin North-West	8912.28	17156.69	
+Smith, Brendan	FF	Cavan-Monaghan	0.00	39244.41	
+Spring, Arthur	Lab	Kerry North-West Limerick	10784.4	52447.09	
+Stagg, Emmet	Lab	Kildare North	0.00	36434.87	
+Stanley, Brian	SF	Laois-Offaly	0.00	48643.52	
+Stanton, David	FG	Cork East	0.00	51179.23	
+Timmins, Billy	FG	Wicklow	0.00	38331.58	
+TOibin, Peadar	SF	Meath West	5895.85	45478.95	
+Troy, Robert	FF	Longford-Westmeath	0.00	48643.52	
+Tuffy, Joanna	Lab	Dublin Mid-West	0.00	22821.43	
+Twomey, Liam	FG	Wexford	0.00	49463.75	
+Varadkar, Leo	FG	Dublin West	1182.18	17543.74	
+Wall, Jack	Lab	Kildare South	0.00	38331.58	
+Wallace, Mick	Ind	Wexford	0.00	22821.43	
+Walsh, Brian	Lab	Galway West	0.00	50540.23	
+White, Alex	Lab	Dublin South	3219.22	31686.94	

@@ -6,8 +6,7 @@ class Bullet extends GameObject
   
   Bullet()
   {
-    x = width / 2;  
-    y = height / 2;
+    
   }
   
   void move()
@@ -17,34 +16,19 @@ class Bullet extends GameObject
     {
       alive = false;
     }
-    float lx = sin(theta);
-    float ly = -cos(theta);
+    forward.x = sin(theta);
+    forward.y = -cos(theta);
     float speed = 10.0f;
-    x += lx * speed;
-    y += ly * speed;
-    
-    if (x < 0)
-    {
-      x = width;
-    }
-    if (x > width)
-    {
-      x = 0;
-    }
-    if (y > height)
-    {
-      y = 0;
-    }
-    if (y < 0)
-    {
-      y = height;
-    }
+ 
+    PVector velocity = PVector.mult(forward, speed);
+    position.add(forward);
+        
   }
   
   void display()
   {
     pushMatrix();
-    translate(x, y);
+    translate(position.x, position.y);
     rotate(theta);
     line(0, - 5, 0, 5);
     popMatrix();

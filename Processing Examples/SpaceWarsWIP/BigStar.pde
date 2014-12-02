@@ -5,8 +5,8 @@ class BigStar extends GameObject
   
   BigStar(float x, float y, float radius, float points)
   {
-    this.x = x;
-    this.y = y;
+    position.x = x;
+    position.y = y;
     this.radius = radius;
     this.points = points;
     this.theta = 0;
@@ -25,7 +25,7 @@ class BigStar extends GameObject
   void display()
   {
     pushMatrix();
-    translate(x, y);
+    translate(position.x, position.y);
     rotate(theta);
     
     float px, py;

@@ -5,8 +5,8 @@ class Polygon extends GameObject
   
   Polygon(float x, float y, float radius, float sides)
   {
-    this.x = x;
-    this.y = y;
+    position.x = x;
+    position.y = y;
     this.radius = radius;
     this.sides = sides;
   }
@@ -23,7 +23,7 @@ class Polygon extends GameObject
   void display()
   {
     pushMatrix();
-    translate(x, y);
+    translate(position.x, position.y);
     
     float px, py;
     float lastx = 0, lasty = -radius;

@@ -10,8 +10,8 @@ class Player extends GameObject
   
   Player(float x, float y, float w, float h)
   {
-    this.x = x;
-    this.y = y;
+    position.x = x;
+    position.y = y;
     this.w = w;
     this.h = h;
     colour = color(255);
@@ -20,8 +20,8 @@ class Player extends GameObject
 
   Player(float x, float y)
   {
-    this.x = x;
-    this.y = y;
+    position.x = x;
+    position.y = y;
     h = 20;
     w = 20;
     colour = color(255);
@@ -30,8 +30,6 @@ class Player extends GameObject
   
   Player()
   {
-    x = width / 2;
-    y = width / 2;
     w = 20;
     h = 20;
     colour = color(255);
@@ -41,7 +39,7 @@ class Player extends GameObject
   void display()
   {
     pushMatrix();
-    translate(x, y);   
+    translate(position.x, position.y);   
     rotate(theta);
     
     stroke(colour);
@@ -58,20 +56,17 @@ class Player extends GameObject
   void move()
   {    
     ellapsed += timeDelta;
-    float lx, ly;
-    lx = sin(theta);
-    ly = -cos(theta);
+    forward.x = sin(theta);
+    forward.y = -cos(theta);
     if (keyPressed)
     {
       switch (key)
       {
         case 'w':
-          position.add(velocity);
-          x = x + lx;
-          y = y + ly;
+          position.add(forward);
           break;
         case 's':
-          y = y + 1;
+          position.sub(forward);
           break;
         case 'a':
           theta -= 0.1f;
@@ -83,8 +78,7 @@ class Player extends GameObject
           if (ellapsed > toPass)
           {
             Bullet bullet = new Bullet();
-            bullet.x = x;
-            bullet.y = y;
+            bullet.position = position.get();
             bullet.theta = theta;
             objects.add(bullet);
             ellapsed = 0.0f;
