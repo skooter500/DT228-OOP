@@ -16,6 +16,9 @@ Resources
 * [The git manual - read the first three chapters](http://git-scm.com/documentation)
 * [A video tutorial all about git/github](https://www.youtube.com/watch?v=p_PGUltnB6w)
 
+Weel 12
+* [Solution to the lab test](Processing Examples/ExpensesProcessing)
+
 Week 11
 -------
 * [Dogs Cats & Sheep]()
