@@ -1,6 +1,42 @@
 OOP Programming Labs
 ====================
 
+Lab 11
+------
+
+Watch [this video](https://www.youtube.com/watch?v=p_PGUltnB6w) which explains the fundamentals of using git. Also at some stage you *need* to read the [first three chapters of the git manual](http://git-scm.com/documentation).
+
+- Create a [github](http://github.com) account if you dont already have one. You can sign up using whatever email address you want and then [link your DIT email address to the account using this link](https://education.github.com/discount_requests/new) to get access to free private repositories.
+- Sign in to your github account and then click [here to go to the repository for the starter code for the Christmas assignment](https://github.com/skooter500/Assignment2StarterCode).
+- Click the fork button to make a fork of the assignment code in your own github account. After a few seconds you will have your own fork of the code. To read more about forking and what it means see [this link](https://help.github.com/articles/fork-a-repo/).
+- Now start gig bash on your computer and type:
+
+	```
+	git clone https://github.com/YOUR-GIT-USERNAME/Assignment2StarterCode
+	```
+- Replace YOUR-GIT-USERNAME in the above with your git username. A clone is a local copy of a git repository from a server that you can work on.
+- Type:
+
+	```
+	cd Assignment2StarterCode
+	ls
+	```
+- To change directory and do a directory listing of the folder with the starter code in it.
+- Now go and load the sketch into Processing and run it.
+- Edit the sketch and save your changes.
+- Go back to git bash and type:
+
+	```
+	pwd
+	```
+- Which means print working directory and verify that you are in the correct directory for your sketch.
+- Type:
+	```
+	git add . 
+	git commit -m "A message to go here"
+	git push
+	```
+
 Lab 10
 ------
 We did some work on this in the class yesterday, so you can start with the [code we worked on](../Processing Examples/SpaceWarsWIP).
