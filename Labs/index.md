@@ -31,11 +31,25 @@ Watch [this video](https://www.youtube.com/watch?v=p_PGUltnB6w) which explains t
 	```
 - Which means print working directory and verify that you are in the correct directory for your sketch.
 - Type:
+
 	```
-	git add . 
-	git commit -m "A message to go here"
+	git add .
+	git commit -m "the message"
 	git push
 	```
+
+Congratulations! You have now forked a repository, made some changes and committed those changes back to your fork. Look up the following git commands and make sure you know what they do: Feel free to experiment. Also now you can clone the repository for the course.
+```
+git init
+git remote add origin
+git push
+git pull
+git fetch
+
+```
+
+Log onto webcourses and answer the MCQ for today.
+
 
 Lab 10
 ------
