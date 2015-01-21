@@ -2,7 +2,7 @@
 
 ## Assignment 2
 
-See the [github project for assignment 2](http://https://github.com/skooter500/Assignment2StarterCode).
+See the [github project for assignment 2](https://github.com/skooter500/Assignment2StarterCode).
 
 ## Assignment 1
 Use the skills you are learning on the course to create a version of this game in Processing:
