@@ -16,6 +16,26 @@ Resources
 * [The git manual - read the first three chapters](http://git-scm.com/documentation)
 * [A video tutorial all about git/github](https://www.youtube.com/watch?v=p_PGUltnB6w)
 
+Semester 2
+----------
+
+Week 1
+------
+* [The Git manual (you need to read this)](http://git-scm.com/documentation)
+* [The Simon Game](https://www.youtube.com/watch?v=XrNt1XM8xik)
+* [Simon game sounds](http://www.waitingforfriday.com/forum/viewtopic.php?f=9&t=8)
+* [Simon Work in Progress code](https://github.com/skooter500/Simon1)
+* [Primitive type wrappers in Java](http://en.wikipedia.org/wiki/Primitive_wrapper_class)
+* [A StackOverflow question on Primitive Type Wrappers](http://stackoverflow.com/questions/8916051/why-in-java-is-there-a-wrapper-for-every-primitive-type)
+* For next week you need to install:
+	* [The JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+	* [Eclipse](https://www.eclipse.org/downloads/)
+	* [Git for Windows](http://git-scm.com/download/win) 
+
+
+Semester 1
+----------
+
 Week 12
 -------
 * [Solution to the lab test](Processing Examples/ExpensesProcessing)

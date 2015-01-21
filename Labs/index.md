@@ -1,6 +1,41 @@
 OOP Programming Labs
 ====================
 
+Semester 2
+----------
+
+Lab 1
+-----
+
+Today you can work on [your assignment](https://github.com/skooter500/Assignment2StarterCode) which is due next week. I will try and get around to all the labs. 
+
+BTW The Arcade machine has a resolution of: 1280 x 1024. Ideally, you should make a version of your game that uses this resolution and that runs full screen. To do this, I use the following code. That way, you can set the devMode flag in your game to either true or false. If it's true, the game runs at 800 x 600 and windowed. If it's false, the game runs full screen at the native resolution of the screen. 
+
+```Java
+boolean devMode = false;
+boolean sketchFullScreen() {
+  return ! devMode;
+}
+
+void setup()
+{
+  if (devMode)
+  {
+    size(800, 600);
+  }
+  else
+  {
+    size(displayWidth, displayHeight);
+  }
+```
+
+There is an MCQ based on what we did in the class this week that will become available at 5pm. To complete the MCQ, log into [Webcourses](http://dit.ie/webcourses) and click the Content link. If you have time you can work on finishing the [Simon game](https://github.com/skooter500/Simon1) we worked on in the class.
+
+Finally I need a load of monophonic MIDI files to make a query-by-singing system we can build this semester. A minimum of 100, but ideally 1000 or even better 10,000. Please do some googling and send email me some suggestions.   
+
+Semester 1
+----------
+
 Lab 11
 ------
 
