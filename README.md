@@ -21,6 +21,7 @@ Semester 2
 
 Week 1
 ------
+* [Collision detection in Processing](Processing Examples/CollisionDetection)
 * [The Git manual (you need to read this)](http://git-scm.com/documentation)
 * [The Simon Game](https://www.youtube.com/watch?v=XrNt1XM8xik)
 * [Simon game sounds](http://www.waitingforfriday.com/forum/viewtopic.php?f=9&t=8)
