@@ -6,6 +6,9 @@ Semester 2
 
 Lab 2
 -----
+
+If you missed Mondays class, check out this introduction to [Java from the Java Tutorial](http://docs.oracle.com/javase/tutorial/).
+
 Today we will make some changes to the Java code we wrote in the class on Monday. Fire up the git bash shell and clone the repo for the course using:
 
 ```bash
