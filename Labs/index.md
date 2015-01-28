@@ -20,7 +20,7 @@ Now cd into the folder DT228-OOP\Java Examples\DogsCats
 To compile the example type:
 
 ```bash
-javac ie/dit/*.jav
+javac ie/dit/*.java
 ```
 
 And to run the program type:
@@ -29,7 +29,7 @@ And to run the program type:
 java ie.dit.Main
 ```
 
-- Create a new subclass called ```Cat``` with a field for ```numLives```
+- Create a new subclass or Animal called ```Cat``` with a field for ```numLives```
 - Make accessors for numLives
 - Write a Constructor. Call the super class constructor and also set numLives to be 9
 - Write a method called kill. It should subtract 1 from numLives if numLives is > 0 and print a message. If numLives is 0, you should just print the message "I'm dead"
