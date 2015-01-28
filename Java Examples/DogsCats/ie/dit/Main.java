@@ -9,8 +9,8 @@ public class Main
 	Main()
 	{
 		System.out.println("Hello world!");
-		Animal cat = new Cat("Fluffy");		
-		cat.speak();
+		Animal dog = new Dog("Misty");		
+		dog.speak();
 	}
 	
 	public static void main(String[] args)
