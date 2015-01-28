@@ -40,7 +40,6 @@ class RectShape extends MovingShape
       return false;
     }
     // If none of the above then there is a collision
-    return true;
-    
+    return true;    
   }
 }

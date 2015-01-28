@@ -4,6 +4,35 @@ OOP Programming Labs
 Semester 2
 ----------
 
+Lab 2
+-----
+Today we will make some changes to the Java code we wrote in the class on Monday. Fire up the git bash shell and clone the repo for the course using:
+
+```bash
+git clone https://github.com/skooter500/DT228-OOP
+```
+
+Now cd into the folder DT228-OOP\Java Examples\DogsCats
+
+To compile the example type:
+
+```bash
+javac ie/dit/*.jav
+```
+
+And to run the program type:
+
+```bash
+java ie.dit.Main
+```
+
+- Create a new subclass called ```Cat``` with a field for ```numLives```
+- Make accessors for numLives
+- Write a Constructor. Call the super class constructor and also set numLives to be 9
+- Write a method called kill. It should subtract 1 from numLives if numLives is > 0 and print a message. If numLives is 0, you should just print the message "I'm dead"
+- In the Main class, construct a Cat instance and in a loop, call kill until the Cat is dead.
+- Log onto Webcourses and do the MCQ for today
+
 Lab 1
 -----
 
