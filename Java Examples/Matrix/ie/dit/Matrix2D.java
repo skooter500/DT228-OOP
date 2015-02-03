@@ -11,6 +11,7 @@ public class Matrix2D
 	public int getRows()
 	{
 		return rows;
+
 	}
 	
 	public int getCols()
