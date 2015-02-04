@@ -7,12 +7,22 @@ public class Main
 		Matrix2D m = new Matrix2D(5, 3);
 		
 		m.setCell(3, 2, 5);
-		System.out.println(m.getCell(3, 2));
-		
-		System.out.println(m.getRows());
-		System.out.println(m.getCols());
 		m.identity();
-		System.out.println(m); // The toString method gets called implicitly
+		
+		
+		Matrix2D a = new Matrix2D(4, 4);
+		a.identity();
+		
+		Matrix2D b = new Matrix2D(4, 4);
+		b.identity();
+		
+		Matrix2D c;
+		c = Matrix2D.add(a, b); // How to call a static method
+		
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		
 		
 	}
 }

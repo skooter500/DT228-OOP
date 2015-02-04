@@ -27,6 +27,33 @@ public class Matrix2D
 		return ret;
 	}
 	
+	public static Matrix2D add(Matrix2D a, Matrix2D b)
+	{
+		Matrix2D c = new Matrix2D(a.getRows(), a.getCols());
+		
+		for (int row = 0 ; row < a.getRows() ; row ++)
+		{
+			for (int col = 0 ; col < a.getCols() ; col ++)
+			{
+				c.setCell(row, col
+					, a.getCell(row, col) + b.getCell(row, col));
+			}
+		}
+		return c;
+	}
+	
+	public void add(Matrix2D b)
+	{
+		for (int row = 0 ; row < rows ; row ++)
+		{
+			for (int col = 0 ; col < cols ; col ++)
+			{
+				setCell(row, col, getCell(row, col) + b.getCell(row, col));
+				cells[row][col] = cells[row][col] + b.cells[row][col];
+			}
+		}
+	}
+	
 	public void identity()
 	{
 		for (int row = 0 ; row < rows ; row ++)
