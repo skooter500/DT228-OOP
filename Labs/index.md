@@ -17,8 +17,46 @@ Read [this article on static in Java](http://stackoverflow.com/questions/413898/
 - Write a static method mult(Matrix2D a, Matrix2D b) that multiplies the a and b matrices together and returns a new matrix.
 - Put the following test code into your Main method:
 
+```Java
+Matrix2D a = new Matrix2D(4, 4);
+a.identity();
+a.setCell(2, 3, 7);
+a.setCell(3, 1, 2);
+a.setCell(3, 0, 4);
+
+Matrix2D b = new Matrix2D(4, 4);
+b.identity();
+b.setCell(2, 3, 1);
+b.setCell(3, 1, 9);
+b.setCell(3, 0, -7);
+
+Matrix2D c;
+c = Matrix2D.mult(a, b); // How to call a static method
+
+System.out.println(a);
+System.out.println(b);
+System.out.println(c);
+```
+
 Your program should output the following:
 
+```
+1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 7.0
+4.0 2.0 0.0 1.0
+
+1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 1.0
+-7.0 9.0 0.0 1.0
+
+1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+-49.0 63.0 1.0 8.0
+-3.0 11.0 0.0 1.0
+```
+Dont forget to login to Webcourses and do the MCQ
  
 
 Lab 2
