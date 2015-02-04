@@ -27,41 +27,6 @@ public class Matrix2D
 		return ret;
 	}
 	
-	public static Matrix2D mult(Matrix2D a, Matrix2D b)
-	{
-		Matrix2D c = new Matrix2D(a.getRows(), b.getCols());
-
-		for (int row = 0; row < a.getRows(); row++)
-		{
-			for (int col = 0; col < b.getCols(); col++)
-			{
-				float sum = 0.0f;
-				for (int i = 0; i < a.getCols(); i++)
-				{
-					sum += a.getCell(row, i) * b.getCell(i, col);
-				}
-				c.setCell(row, col, sum);
-			}
-		}
-		return c;
-	}
-	
-	public void mult(Matrix2D b)
-	{
-		for (int row = 0; row < getRows(); row++)
-		{
-			for (int col = 0; col < b.getCols(); col++)
-			{
-				float sum = 0.0f;
-				for (int i = 0; i < getCols(); i++)
-				{
-					sum += getCell(row, i) * b.getCell(i, col);
-				}
-				setCell(row, col, sum);
-			}
-		}
-	}
-	
 	
 	public static Matrix2D add(Matrix2D a, Matrix2D b)
 	{
