@@ -4,6 +4,16 @@ OOP Programming Labs
 Semester 2
 ----------
 
+Lab 3
+-----
+Today we will be adding methods to the Matrix2D class to allow matrix multiplication. Check out the MatrixWIP code we worked on in the class that implements methods for matrix addition. In the class, we implemented two methods for addition that allows us to perform the following operations:
+
+- A+= B - This is the *non-static* method add that takes one parameter  
+- A = B + C - This is the *static* method that takes two parameters.
+
+Read [this article on static in Java](http://stackoverflow.com/questions/413898/what-does-the-static-keyword-do-in-a-class) if you missed the tutorial yesterday.
+
+
 Lab 2
 -----
 

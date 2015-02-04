@@ -19,6 +19,20 @@ Resources
 Semester 2
 ----------
 
+Week 3
+------
+* [Lab 3](Labs/index.md)	
+* [All about Matrices](https://www.khanacademy.org/math/precalculus/precalc-matrices)
+* [Matrix Work in Progress code](../Java Examples/MatrixWIP)
+* [Matrix multiplication](http://www.mathsisfun.com/algebra/matrix-multiplying.html)
+* [Stackoverflow question about static in java](http://stackoverflow.com/questions/413898/what-does-the-static-keyword-do-in-a-class)
+
+Week 2
+------
+* [Lab 2](Labs/index.md)
+* [Introduction to Java](http://docs.oracle.com/javase/tutorial/getStarted/index.html)
+* [Matrix Work in Progress code](../Java Examples/MatrixWIP)
+
 Week 1
 ------
 * [Collision detection in Processing](Processing Examples/CollisionDetection)
@@ -32,6 +46,7 @@ Week 1
 	* [The JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 	* [Eclipse](https://www.eclipse.org/downloads/)
 	* [Git for Windows](http://git-scm.com/download/win) 
+* [Lab 1](Labs/index.md)	 
 
 
 Semester 1
