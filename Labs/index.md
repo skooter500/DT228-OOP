@@ -13,6 +13,13 @@ Today we will be adding methods to the Matrix2D class to allow matrix multiplica
 
 Read [this article on static in Java](http://stackoverflow.com/questions/413898/what-does-the-static-keyword-do-in-a-class) if you missed the tutorial yesterday.
 
+- Write a non-static method mult(Matrix2D b) that multiplies the current matrix by the b matrix.
+- Write a static method mult(Matrix2D a, Matrix2D b) that multiplies the a and b matrices together and returns a new matrix.
+- Put the following test code into your Main method:
+
+Your program should output the following:
+
+ 
 
 Lab 2
 -----
