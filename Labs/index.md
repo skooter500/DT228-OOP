@@ -3,6 +3,9 @@ OOP Programming Labs
 
 Semester 2
 ----------
+Lab 4
+-----
+Today, a simple task! We are going to add exception handling to the Matrix class we are building up. Get the code from the MatrixWIP folder in the repo. Look over previous labs to make sure you can compile and edit Java programs from the command line. Also read the articles I linked to from this weeks class so you know how exception handling works.
 
 Lab 3
 -----
