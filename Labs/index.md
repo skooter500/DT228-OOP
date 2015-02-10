@@ -90,6 +90,7 @@ public class Main
 	}
 }
 ```
+When you are done, logon to Webcourses and do the MCQ for today.
 
 Lab 3
 -----
