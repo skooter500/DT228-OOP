@@ -5,7 +5,91 @@ Semester 2
 ----------
 Lab 4
 -----
-Today, a simple task! We are going to add exception handling to the Matrix class we are building up. Get the code from the MatrixWIP folder in the repo. Look over previous labs to make sure you can compile and edit Java programs from the command line. Also read the articles I linked to from this weeks class so you know how exception handling works.
+Today, we are going to add exceptions to the Matrix class we are building up. Get the code from the MatrixWIP folder in the repo. Look over previous labs to make sure you can compile and edit Java programs from the command line. Also read the articles I linked to from this weeks class so you know how exception handling works. In particular read [this article about exception handling in Java](http://docs.oracle.com/javase/tutorial/essential/exceptions/). Also read this [very good article about exception handling](http://www.javacodegeeks.com/2013/07/java-exception-handling-tutorial-with-examples-and-best-practices.html).
+
+Implement the following method in the ```Matrix2D``` class:
+
+```Java
+public void randomise(float max)
+```
+
+The method should assign a random value to each cell in the ```Matrix2D```. The random values should fall in the range 0 to max. Read [this article that explains how to generate random numbers using the Random class in Java](http://docs.oracle.com/javase/7/docs/api/java/util/Random.html).
+
+Create a class ```Matrix2DException``` and make it a subclass of ```Exception```. Put it in the package ie.dit along with the Matrix2D class and the Main class. In your ```Matrix2DException``` class make:
+
+- A private field of type String called message
+- Public accessors for message
+- A constructor that takes the message string as a parameter and assigns it to the field
+
+We are going to throw this exception whenever we try and do invalid operations on the Matrix2D. For example we will throw the exception when:
+
+- We try and get or set cell which is outside the bounds of the Matrix2D
+- Whenever we try and add two matrixes of different dimensionalities (rows & cols)
+- Whenever we try and multiply two matrices that cannot be multiplied
+
+Add the appropriate code to the methods in Matrix2D to check for exceptional conditions like those above. Use if statements for this and if ```throw``` the exception with an appropriate message. You will also have to add throws clauses to the method signatures.
+
+The code below should go into your Main class to test your exception throwing:
+
+```Java
+package ie.dit;
+
+public class Main
+{
+	public static void main(String[] args)
+	{		
+		try
+		{
+			Matrix2D a = new Matrix2D(4, 4);
+			a.identity();
+			Matrix2D b = new Matrix2D(4, 1);
+			b.randomise(10);
+			Matrix2D c = null;
+			c = Matrix2D.mult(a, b);
+			System.out.println(a);
+			System.out.println(b);
+			System.out.println(c);			
+		}
+		catch (Matrix2DException me)
+		{
+			// Should not get thrown...
+			me.printStackTrace();
+		}
+		
+		try
+		{
+			Matrix2D d = new Matrix2D(4, 4);
+			d.identity();
+			Matrix2D e = new Matrix2D(3, 1);
+			e.randomise(10);
+			Matrix2D f = null;
+			// This should throw an exception
+			f = Matrix2D.mult(d, e);
+			// This code will never be reached because the exception will be thrown and caught
+			System.out.println(d);
+			System.out.println(e);
+			System.out.println(f); // f will be null
+		}
+		catch (Matrix2DException me)
+		{
+			// Catch the exception thrown above	
+			me.printStackTrace();
+		}
+		
+		try
+		{
+			Matrix2D g = new Matrix2D(2, 2);
+			g.setCell(2, 2, 100); // This should throw an exception
+		}
+		catch (Matrix2DException me)
+		{
+			// Catch the exception thrown above	
+			me.printStackTrace();
+		}
+		
+	}
+}
+```
 
 Lab 3
 -----
