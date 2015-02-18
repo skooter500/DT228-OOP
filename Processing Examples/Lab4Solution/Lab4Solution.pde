@@ -7,7 +7,6 @@ void setup()
   gap = width / bytes.length;
 }
 
-boolean[] bytes = new boolean[16];
 int centX, centY;
 float gap;
 float left;
@@ -36,18 +35,21 @@ void draw()
   text(number, centX, 100);
 }
 
-int binaryToDecimal(boolean[] bytes)
+boolean[] bits = new boolean[16]; // Stores the array of bits
+
+
+int binaryToDecimal(boolean[] bits)
 {
   int ret = 0;
-  int bit = bytes.length - 1;
-  for (int i = 0 ; i < bytes.length ; i ++)
+  int bit = bits.length - 1;
+  for (int i = 0 ; i < bits.length ; i ++)
   {
-    ret += bytes[i] ? pow(2, bit) : 0;
+    ret += bits[i] ? pow(2, bit) : 0;
     -- bit;
   }
   
   // 2's complement
-  if (bytes[0] == true)
+  if (bits[0] == true)
   {
     ret -= maxNum;
   }
@@ -61,6 +63,6 @@ void mousePressed()
   if ((mouseY > centY) && (mouseY < centY + gap))
   {    
     int i = mouseX / (int) gap;    
-    bytes[i] = ! bytes[i];
+    bits[i] = ! bits[i];
   }
 }
