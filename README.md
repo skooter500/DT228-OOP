@@ -18,6 +18,14 @@ Resources
 
 Semester 2
 ----------
+Week 4
+------
+- [The Java program we have been looking at that checks out assignment submissions from git](https://github.com/skooter500/WebcoursesGitClone). The questions branch has all the questions we looked at in the class
+- [Anonymous classes in Java](http://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html)
+- [Anonymous inner classes in Java](http://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html)
+- [Interfaces in Java](http://docs.oracle.com/javase/tutorial/java/concepts/interface.html)
+- [Exceptions in Java](http://docs.oracle.com/javase/tutorial/essential/exceptions/)
+- [Lab 4](Labs/index.md)
 
 Week 3
 ------
