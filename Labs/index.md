@@ -10,9 +10,28 @@ Today lets implement the Levenstein Distance algorithm in Java. Of course you ca
 
 Here is how I suggest you do it:
 
-Take the MatrixWIP Java project we were working and use it as starter code.
-Create a new class called 
+- Take the MatrixWIP Java project we were working and use it as starter code.
+- Create a new class called EditDistance.java in the same package as the other classes. 
+- Create a static method on the class called min3 that takes three int parameters and returns the minimum of these three numbers
+- Create a static method on the class called MinimumEditDistance that takes two String parameters, neele and haystack that evaluates the minimum edit distance between needle and haystack. Implement the Levenstein Distance algorithm to calculate this
+- In your soultion above, use the Matrix2D class we have been making.
+- Write a Main class that has this code in it:
 
+```Java
+String sa = "I love DIT";
+String sb = "I love Tunepal";
+System.out.println("Edit distance between: " + sa + " and: " + sb + " is " + EditDistance.MinimumEditDistance(sa, sb));
+
+sa = "Games Fleadh";
+sb = "Imagine Cup";
+System.out.println("Edit distance between: " + sa + " and: " + sb + " is " + EditDistance.MinimumEditDistance(sa, sb));
+```
+- It should print the following:
+
+```
+Edit distance between: I love DIT and: I love Tunepal is 7
+Edit distance between: Games Fleadh and: Imagine Cup is 11
+```
 
 Lab 4
 -----
