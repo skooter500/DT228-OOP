@@ -8,8 +8,8 @@ public class Main
 		String sb = "I love Tunepal";
 		System.out.println("Edit distance between: " + sa + " and: " + sb + " is " + EditDistance.MinimumEditDistance(sa, sb));
 
-		sa = "Games Fleadh";
-		sb = "Imagine Cup";
+		sa = "AbCDE";
+		sb = "bBCD";
 		System.out.println("Edit distance between: " + sa + " and: " + sb + " is " + EditDistance.MinimumEditDistance(sa, sb));
 
 	}
