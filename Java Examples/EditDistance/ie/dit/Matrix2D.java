@@ -6,6 +6,16 @@ public class Matrix2D
 	private int cols;
 	private float[][] cells;
 	
+	public void setCell(int row, int col, float value)
+	{
+		cells[row][col] = value;
+	}
+	
+	public float getCell(int row, int col)
+	{
+		return cells[row][col];
+	}
+	
 	Matrix2D(int rows, int cols)
 	{
 		this.rows = rows;
@@ -121,14 +131,6 @@ public class Matrix2D
 		return cols;
 	}
 	
-	public void setCell(int row, int col, float value)
-	{
-		cells[row][col] = value;
-	}
 	
-	public float getCell(int row, int col)
-	{
-		return cells[row][col];
-	}
 	
 }
