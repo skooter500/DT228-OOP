@@ -8,11 +8,16 @@ public class Stack<T>
 
 	public Stack(int capacity)
 	{
-		elements = new T[capacity];
+		elements = (T[]) new Object[capacity]; // create array
 		this.capacity = capacity;
 	}
+	
+	public boolean isEmpty()
+	{
+		return (top == 0);
+	}
 
-	public void Push(T what) throws ArrayIndexOutOfBoundsException
+	public void push(T what) throws ArrayIndexOutOfBoundsException
 	{
 		if (top < capacity)
 		{
@@ -23,13 +28,8 @@ public class Stack<T>
 			throw new ArrayIndexOutOfBoundsException("Tried to push too many elements onto the stack");
 		}
 	}
-	
-	public boolean isEmpty()
-	{
-		return (top != 0)
-	}
 
-	public T Pop() throws ArrayIndexOutOfBoundsException
+	public T pop()  throws ArrayIndexOutOfBoundsException
 	{
 		if (top > 0)
 		{

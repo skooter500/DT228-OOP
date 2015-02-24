@@ -4,7 +4,7 @@ public class Main
 {
 	public static void main(String[] args)
 	{
-		Stack<int> iStack = new Stack<I>();
+		Stack<Integer> iStack = new Stack<Integer>(10);
 		
 		iStack.push(10);
 		iStack.push(20);
@@ -12,7 +12,7 @@ public class Main
 		
 		while (! iStack.isEmpty())
 		{
-			System.out.println(iStack.pull());
+			System.out.println(iStack.pop());
 		}
 	}
 }
