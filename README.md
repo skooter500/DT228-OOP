@@ -18,6 +18,22 @@ Resources
 
 Semester 2
 ----------
+
+Week 6
+------
+- [Getting started with Eclipse](https://www.youtube.com/watch?v=mMu-JlBrYXo)
+- [The Eclipse FAQ](http://wiki.eclipse.org/index.php/Eclipse_FAQs)
+- [Introduction to digital audio](http://www.jiscdigitalmedia.ac.uk/guide/an-introduction-to-digital-audio)
+- [All about the Minim library in processing](http://code.compartmental.net/tools/minim/)
+- [Using Eclipse with Processing](https://processing.org/tutorials/eclipse/)
+- [The audio visualiser program we wrote in the class & tutorial.](workspace)
+
+Week 5
+------
+- [All about the Levenshtein Distance algorithm](http://en.wikipedia.org/wiki/Levenshtein_distance)
+- [Lab 5](Labs/index.md)
+- [Solution to Lab 5 - Levenshtein Distance implemented in Java](Java Examples/EditDistance)
+
 Week 4
 ------
 - [The Java program we have been looking at that checks out assignment submissions from git](https://github.com/skooter500/WebcoursesGitClone). The questions branch has all the questions we looked at in the class
