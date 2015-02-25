@@ -64,9 +64,6 @@ float[] frequencies = {293.66f, 329.63f, 369.99f, 392.00f, 440.00f, 493.88f, 554
 Here is a video of what your finished program might look like:
 
 [![YouTube](http://img.youtube.com/vi/KOuete3f21c/0.jpg)](http://www.youtube.com/watch?v=KOuete3f21c)
-
-
-       
  
 
 Lab 5
