@@ -25,7 +25,7 @@ However real instruments generate "harmonics" and so it will never be a perfect 
 
 Different musical notes are caused by the the air vibrating at different frequencies. For example, when we hear the note D the wave will repeat 293 times in a second. When we hear the note A, the wave will repeat 440 times in a second. A single "wave" in the audio is called a "period".
 
-One simple way of figuring out the frequency, and hence that note that is playing is to count the number of periods that occur in one second. If you notice the waveforms above, you can tell when the perion ends, because the signal is above 0 for one sample and then dips to 0 or below in the next sample. By counting the number of times this occurs we can tell how many periods there are. SOmetimes we dont have a full second of audio, we only have a short section, but we can still use the zero crossings algorithm and just multiply the result. This segment of audio is called a frame of audio. For example, if we only have 1024 samples and we are sampling at 44100Hz, then we have (1024 / 44100) seconds of audio. This works out at .023 of a second. If we counted 41 crossings in this frame we would multiply by 1 / .023 to get a frequency of 1765. The frequency of the note A6 is 1760, so we could conclude that the note was an A. This technique won't work all the time because of the harmonics, but its a good first step! 
+One simple way of figuring out the frequency, and hence that note that is playing is to count the number of periods that occur in one second. If you notice the waveforms above, you can tell when the perion ends, because the signal is above 0 for one sample and then dips to 0 or below in the next sample. By counting the number of times this occurs we can tell how many periods there are. Sometimes we dont have a full second of audio, we only have a short section, but we can still use the zero crossings algorithm and just multiply the result. This segment of audio is called a frame of audio. For example, if we only have 1024 samples and we are sampling at 44100Hz, then we have (1024 / 44100) seconds of audio. This works out at .023 of a second. If we counted 41 crossings in this frame we would multiply by 1 / .023 to get a frequency of 1765. The frequency of the note A6 is 1760, so we could conclude that the note was an A. This technique won't work all the time because of the harmonics, but its a good first step! 
 
 Using the Minim library, we can set the size of the frame using this code:
 
@@ -65,6 +65,7 @@ Here is a video of what your finished program might look like:
 
 [![YouTube](http://img.youtube.com/vi/KOuete3f21c/0.jpg)](http://www.youtube.com/watch?v=KOuete3f21c)
  
+Login to Webcourses and do the MCQ
 
 Lab 5
 ------
