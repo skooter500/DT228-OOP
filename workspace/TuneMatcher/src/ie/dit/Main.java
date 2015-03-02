@@ -1,8 +1,12 @@
 package ie.dit;
 
+import java.util.ArrayList;
+
 import processing.core.PApplet;
 import ddf.minim.AudioInput;
 import ddf.minim.Minim;
+import ddf.minim.analysis.FFT;
+import ddf.minim.analysis.WindowFunction;
 
 public class Main extends PApplet
 {
@@ -13,17 +17,22 @@ public class Main extends PApplet
 	                         
 	float[] frequencies = {293.66f, 329.63f, 369.99f, 392.00f, 440.00f, 493.88f, 554.37f, 587.33f
 			, 659.25f, 739.99f, 783.99f, 880.00f, 987.77f, 1108.73f, 1174.66f};
-	String[] spellings = {"D,", "E,", "F,", "G,", "A,", "B,", "C", "D", "E", "F", "G", "A", "B","c", "d", "e", "f", "g", "a", "b", "c'", "d'", "e'", "f'", "g'", "a'", "b'", "c''", "d''"}; 	
-	
+	//String[] spellings = {"D,", "E,", "F,", "G,", "A,", "B,", "C", "D", "E", "F", "G", "A", "B","c", "d", "e", "f", "g", "a", "b", "c'", "d'", "e'", "f'", "g'", "a'", "b'", "c''", "d''"}; 	
+	String[] spellings = {"D", "E", "F", "G", "A", "B", "C", "D", "E", "F", "G", "A", "B","C", "D", "E", "F", "G", "A", "B", "C", "D", "E", "F", "G", "A", "B", "C", "D"};
 	int sampleRate = 44100;
+	FFT fft;
+	
+	ArrayList<String> fftNotes = new ArrayList<String>();
+	ArrayList<String> zcNotes = new ArrayList<String>();
 	
 	public void setup()
 	{
 		size(2048, 500, OPENGL);
 		smooth();
 		minim = new Minim(this);
-		in = minim.getLineIn(Minim.MONO, width, sampleRate, 16);
 		
+		in = minim.getLineIn(Minim.MONO, width, sampleRate, 16);
+		fft = new FFT(width, sampleRate);
 		min = Float.MAX_VALUE;
 		max = Float.MIN_VALUE;
 	}
@@ -58,6 +67,20 @@ public class Main extends PApplet
 		return count;		
 	}
 	
+	public float FFTFreq()
+	{
+		float maxValue = Float.MIN_VALUE;
+		int maxIndex = -1;
+		for (int i = 0 ; i < fft.specSize() ; i ++)
+		{
+			if (fft.getBand(i) > maxValue)
+			{
+				maxValue = fft.getBand(i);
+				maxIndex = i;
+			}
+		}
+		return fft.indexToFreq(maxIndex);
+	}
 	
 	public void draw()
 	{
@@ -87,17 +110,35 @@ public class Main extends PApplet
 		
 		average /= in.bufferSize();
 		
+		fft.window(FFT.HAMMING);
+		fft.forward(in.left);
+		
+		for (int i = 0 ; i < fft.specSize() ; i ++)
+		{
+			line(i, height, i, height - fft.getBand(i)*4);
+		}
+		
 		fill(255);
 		text("Amp: " + average, 10, 10);
 		int zeroC = countZeroCrossings();		
-		if (average > 0.05f)
-		{
-			float freq = ((float) sampleRate / (float)in.bufferSize()) * (float) zeroC;
-			text("Zero crossings: " + zeroC, 10, 30);
-			text("Freq: " + freq, 10, 50);
-			text("Spelling: " + spell(freq), 10, 70);
-		}
 		
+		if (average > 0.02f)
+		{
+			float freqByZeroC = ((float) sampleRate / (float)in.bufferSize()) * (float) zeroC;
+			text("Zero crossings: " + zeroC, 10, 30);
+			text("Freq by zero crossings: " + freqByZeroC, 10, 50);
+			String zcSpell = spell(freqByZeroC);
+			text("Spelling by zero crossings: " + spell(freqByZeroC), 10, 70);
+			appendNote(zcSpell, zcNotes);
+			float freqByFFT = FFTFreq();
+			
+			String fftSpell = spell(freqByFFT);
+			text("Freq by FFT: " + freqByFFT, 10, 90);
+			text("Spelling by FFT: " + fftSpell, 10, 110);						
+			appendNote(fftSpell, fftNotes);
+		}
+		text("Zero Crossings Transcription: " + zcNotes, 10, 130);
+		text("FFT Transcription: " + fftNotes, 10, 150);
 		float smallRadius = 50;
 		float bigRadius = (smallRadius * 2) + (average * 500);
 		
@@ -136,9 +177,19 @@ public class Main extends PApplet
 	}
 	*/
 	
+	private void appendNote(String spell, ArrayList<String> list) {
+		if (list.size() > 0)
+		{
+			if (list.get(list.size() - 1).equals(spell))
+			{
+				return;
+			}
+		}
+		list.add(spell);
+	}
+
 	public static void main(String[] args)
 	{
 		PApplet.main(new String[] {"--present", "ie.dit.Main"});
 	}
-	*/
 }
