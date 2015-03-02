@@ -31,7 +31,7 @@ Some ideas:
 
 Submission dates:
 - Git links/project abstract/team members 9 March. Submit via [this form](https://docs.google.com/forms/d/1dByTaoy6Bc2o8119lMalsZJMlUNhq7eceeY9rIGi2n0/viewform)
-- Project submission and demos 15 April (week after Easter). Submit via Webcourses
+- Project submission and demos 15 April (week after Easter). Submit git link & video link via Webcourses
 
 Marking Scheme:
 
