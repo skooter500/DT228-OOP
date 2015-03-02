@@ -19,6 +19,11 @@ Resources
 Semester 2
 ----------
 
+Week 7
+------
+- [Solution to Lab 6](workspace)
+- [Assignment](Labs/assignment.md) 
+
 Week 6
 ------
 - [Getting started with Eclipse](https://www.youtube.com/watch?v=mMu-JlBrYXo)
