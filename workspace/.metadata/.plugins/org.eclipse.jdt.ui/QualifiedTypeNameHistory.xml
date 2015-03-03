@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="ddf.minim.analysis.FFT"/>
+<fullyQualifiedTypeName name="ddf.minim.analysis.WindowFunction"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="processing.core.PApplet"/>
+<fullyQualifiedTypeName name="ddf.minim.Minim"/>
+<fullyQualifiedTypeName name="ddf.minim.AudioInput"/>
+</qualifiedTypeNameHistroy>
