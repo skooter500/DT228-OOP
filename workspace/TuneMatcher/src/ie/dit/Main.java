@@ -115,7 +115,7 @@ public class Main extends PApplet
 		
 		for (int i = 0 ; i < fft.specSize() ; i ++)
 		{
-			line(i, height, i, height - fft.getBand(i)*4);
+			line(i, height, i, height - fft.getBand(i)*100);
 		}
 		
 		fill(255);
