@@ -8,12 +8,26 @@ Lab 7
 -----
 Get the project we worked on in the class this week that implements the zero crossings pitch detection algoririthm and the FFT based pitch detection algorithm that we worked on in the tutorial.
 
-What we will do today is make a program that actually transcribes a piece of music. Lets try something simple first...
+What we will do today is make a program that transcribes a sequence of notes to a String. Lets try something simple first...
 
 - Make an ArrayList of String called notes. Make this a field in the class. 
 - Everytime your program detects a new note you can append it to notes.
-- Try it out by playing back this audio file:
+- Print the arraylist to the screen.
+- Try it out by playing back (this audio file)[https://soundcloud.com/skooter500/long-scale]
 
+You should notice lots of duplicate notes as your program detects the same note over and over again. 
+
+Some things to try
+
+- Try only appending a note if is different to the last note in the arraylist
+- Try ensuring that the program hears the same note for at least 2 frames before adding it
+
+After this, Im open to suggestions! If your program is not still not transcribing the audio correctly (mine doesnt), then try and come up with your own ideas to get a better transcription. You can experiment with the pitch detection, the pitch spelling and the transcription.
+
+If yoy are are curious and want to know how Tunepal is able to get such good transcriptions, you can find it all documented in [my PhD which you can download here](http://arrow.dit.ie/sciendoc/71/).
+
+Logon to webcourses and do the MCQ for this week.
+  
 Lab 6
 -----
 Today lets use Eclipse and Processing with the Minim library to implement a simple pitch detection algorithm called Zero Crossings in order to figure out the musical note that is playing. 
