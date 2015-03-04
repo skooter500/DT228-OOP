@@ -22,8 +22,6 @@ public class Main extends PApplet
 	int sampleRate = 44100;
 	FFT fft;
 	
-	ArrayList<String> fftNotes = new ArrayList<String>();
-	ArrayList<String> zcNotes = new ArrayList<String>();
 	
 	public void setup()
 	{
@@ -129,16 +127,12 @@ public class Main extends PApplet
 			text("Freq by zero crossings: " + freqByZeroC, 10, 50);
 			String zcSpell = spell(freqByZeroC);
 			text("Spelling by zero crossings: " + spell(freqByZeroC), 10, 70);
-			appendNote(zcSpell, zcNotes);
 			float freqByFFT = FFTFreq();
 			
 			String fftSpell = spell(freqByFFT);
 			text("Freq by FFT: " + freqByFFT, 10, 90);
 			text("Spelling by FFT: " + fftSpell, 10, 110);						
-			appendNote(fftSpell, fftNotes);
 		}
-		text("Zero Crossings Transcription: " + zcNotes, 10, 130);
-		text("FFT Transcription: " + fftNotes, 10, 150);
 		float smallRadius = 50;
 		float bigRadius = (smallRadius * 2) + (average * 500);
 		
@@ -176,17 +170,6 @@ public class Main extends PApplet
 		text("Min: " + min, 10, 30);		
 	}
 	*/
-	
-	private void appendNote(String spell, ArrayList<String> list) {
-		if (list.size() > 0)
-		{
-			if (list.get(list.size() - 1).equals(spell))
-			{
-				return;
-			}
-		}
-		list.add(spell);
-	}
 
 	public static void main(String[] args)
 	{
