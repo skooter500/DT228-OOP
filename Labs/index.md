@@ -13,7 +13,8 @@ What we will do today is make a program that transcribes a sequence of notes to 
 - Make an ArrayList of String called notes. Make this a field in the class. 
 - Everytime your program detects a new note you can append it to notes.
 - Print the arraylist to the screen.
-- Try it out by playing back (this audio file)[https://soundcloud.com/skooter500/long-scale]
+- Try it out by playing back [this audio file](https://soundcloud.com/skooter500/long-scale).
+- There are a few others on my soundcloud you can try
 
 You should notice lots of duplicate notes as your program detects the same note over and over again. 
 
