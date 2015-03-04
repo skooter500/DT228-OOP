@@ -4,6 +4,16 @@ OOP Programming Labs
 Semester 2
 ----------
 
+Lab 7
+-----
+Get the project we worked on in the class this week that implements the zero crossings pitch detection algoririthm and the FFT based pitch detection algorithm that we worked on in the tutorial.
+
+What we will do today is make a program that actually transcribes a piece of music. Lets try something simple first...
+
+- Make an ArrayList of String called notes. Make this a field in the class. 
+- Everytime your program detects a new note you can append it to notes.
+- Try it out by playing back this audio file:
+
 Lab 6
 -----
 Today lets use Eclipse and Processing with the Minim library to implement a simple pitch detection algorithm called Zero Crossings in order to figure out the musical note that is playing. 

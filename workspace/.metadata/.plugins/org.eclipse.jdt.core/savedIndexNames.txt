@@ -4,7 +4,6 @@ INDEX VERSION 1.126+C:\Users\Bryan\Documents\Projects\DT228-OOP\workspace\.metad
 248351807.index
 881895235.index
 2448026493.index
-3052996287.index
 3975068621.index
 2479695755.index
 3520661010.index

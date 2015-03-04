@@ -19,11 +19,13 @@ Resources
 Semester 2
 ----------
 
+
 Week 7
 ------
 - [The program we wrote in the class](workspace/TuneMatcher)
 - [Solution to Lab 6](workspace)
 - [Assignment](Labs/assignment.md) 
+- [Lab 7](Labs/index.md)
 
 Week 6
 ------
