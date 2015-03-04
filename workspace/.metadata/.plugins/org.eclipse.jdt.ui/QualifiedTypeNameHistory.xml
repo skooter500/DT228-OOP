@@ -6,4 +6,5 @@
 <fullyQualifiedTypeName name="processing.core.PApplet"/>
 <fullyQualifiedTypeName name="ddf.minim.Minim"/>
 <fullyQualifiedTypeName name="ddf.minim.AudioInput"/>
+<fullyQualifiedTypeName name="ie.dit.TuneMatcher3"/>
 </qualifiedTypeNameHistroy>

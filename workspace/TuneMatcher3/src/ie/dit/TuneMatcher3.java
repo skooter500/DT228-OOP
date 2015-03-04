@@ -19,6 +19,8 @@ public class TuneMatcher3 extends PApplet {
             , 659.25f, 739.99f, 783.99f, 880.00f, 987.77f, 1108.73f, 1174.66f};
     String[] spellings = {"D", "E", "F", "G", "A", "B", "C", "D", "E", "F", "G", "A", "B","C", "D", "E", "F", "G", "A", "B", "C", "D", "E", "F", "G", "A", "B", "C", "D"};
 	
+    
+    
 	public void setup()
 	{
 		size(2048, 500);
@@ -85,11 +87,21 @@ public class TuneMatcher3 extends PApplet {
 		fft.forward(in.left);
 		
 		stroke(0, 255, 0);
+		float maxPower = Float.MIN_VALUE;
+		int maxIndex = -1;
 		for (int i = 0 ; i < fft.specSize() ; i ++)
 		{
 			float power = fft.getBand(i) * 50;
+			if (fft.getBand(i) > maxPower)
+			{
+				maxPower = fft.getBand(i);
+				maxIndex = i;
+			}
 			line(i, height, i, height - power);
 		}
+		float f = fft.indexToFreq(maxIndex);
+		text("Frequency by FFT: " + f, 10, 50);
+		
 		
 	}
 }

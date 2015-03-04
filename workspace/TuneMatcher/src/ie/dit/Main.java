@@ -112,7 +112,7 @@ public class Main extends PApplet
 		
 		fft.window(FFT.HAMMING);
 		fft.forward(in.left);
-		
+		stroke(0, 255, 255);
 		for (int i = 0 ; i < fft.specSize() ; i ++)
 		{
 			line(i, height, i, height - fft.getBand(i)*100);
