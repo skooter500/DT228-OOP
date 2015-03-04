@@ -23,7 +23,7 @@ application.macosx
 
 # Directories #
 /build/
-/bin/
+bin
 target/
  
 # OS Files #
