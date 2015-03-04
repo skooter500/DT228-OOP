@@ -122,7 +122,7 @@ public class Main extends PApplet
 		text("Amp: " + average, 10, 10);
 		int zeroC = countZeroCrossings();		
 		
-		if (average > 0.02f)
+		if (average > 0.001f)
 		{
 			float freqByZeroC = ((float) sampleRate / (float)in.bufferSize()) * (float) zeroC;
 			text("Zero crossings: " + zeroC, 10, 30);

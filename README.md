@@ -21,6 +21,7 @@ Semester 2
 
 Week 7
 ------
+- [The program we wrote in the class](workspace/)
 - [Solution to Lab 6](workspace)
 - [Assignment](Labs/assignment.md) 
 
