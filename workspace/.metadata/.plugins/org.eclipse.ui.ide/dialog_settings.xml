@@ -2,7 +2,6 @@
 <section name="Workbench">
 	<list key="installedFeatures">
 		<item value="com.android.ide.eclipse.adt.package.feature:23.0.2.1259578"/>
-		<item value="com.nuecho.feature.grammaride.basic:2.3.0.201105251249"/>
 		<item value="org.eclipse.cdt.gdb:7.0.0.201202111925"/>
 		<item value="org.eclipse.cdt:8.0.2.201202111925"/>
 		<item value="org.eclipse.egit.import:2.2.0.201212191850-r"/>

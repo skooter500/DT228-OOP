@@ -4,9 +4,14 @@
 		<item value="331" key="DIALOG_X_ORIGIN"/>
 		<item value="18" key="DIALOG_Y_ORIGIN"/>
 	</section>
+	<section name="org.eclipse.ui.preferences.keysPreferencePage">
+		<item value="true" key="actionSetFilter"/>
+		<item value="true" key="uncategorizedFilter"/>
+		<item value="true" key="internalFilter"/>
+	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
-		<item value="737" key="dialogHeight"/>
-		<item value="1260" key="dialogWidth"/>
+		<item value="525" key="dialogHeight"/>
+		<item value="768" key="dialogWidth"/>
 		<list key="textEntries">
 		</list>
 		<list key="orderedElements">
