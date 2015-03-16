@@ -81,6 +81,9 @@ local.properties
 .settings/
 .loadpath
 .log
+*.log
+*.index
+*.resources
 /src/main/resources/rebel.xml
 # External tool builders
 .externalToolBuilders/
