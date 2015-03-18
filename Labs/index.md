@@ -5,7 +5,7 @@ Semester 2
 ----------
 Lab 8
 -----
-Get the TuneMatcherDB project from the workspace and import it into Eclipse. This project has:
+Get the TuneMatcherDB project from the workspace on git and import it into Eclipse. This project has:
 
 - The DSP stuff we have been working on
 - The JSBC stuff we have been working on
@@ -27,8 +27,16 @@ There are a few things we need to add:
 	- Make a method called ```float substringEditDistance(String needle, String haystack)```. Copy the code from MinimumEditDistance
 	- Set the 0th row to be all 0's instead of the sequence 0, 1, 2, 3... This is the bit inside the loop ```for (int col = 0 ; col < cols; col ++)```... 
 	- Instead of returning the value held in the bottom right of the matrix, return the minimum value held in the bottom row. Just loop through the last row and return the minimum. 
-	- The position where the minimum occurs is the location where the substring ends, but you dont need to do anything with it  
+	- The position where the minimum occurs is the location where the substring ends, but you dont need to do anything with it.
+	- For example executing:
+	
+		```
+		System.out.println(EditDistance.substringEditDistance("AAEABB", "BAGEAAAAAEABCBABCABAGABGAGEDEFGGABCAGEDEAA"));
+		```
+		
+		Prints 1
 
+The next thing we need to add is add the ability to go through each of the tunes and find the closest match 
 
 Lab 7
 -----
