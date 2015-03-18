@@ -21,7 +21,7 @@ There are a few things we need to add:
 	needle: AAEABB
 	``` 
 
-	We would get a high edit distance, beuase we would need lots of insertions to make neelde into haystack
+	We would get a high edit distance, becuase we would need lots of insertions to make needle into haystack, however if we take the time to look at the two strings, we will see that AAEABB kindof matches with AAEABC, with a distance of 1.
 
 
 Lab 7
