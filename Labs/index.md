@@ -8,7 +8,7 @@ Lab 8
 Get the TuneMatcherDB project from the workspace on git and import it into Eclipse. This project has:
 
 - The DSP stuff we have been working on
-- The JSBC stuff we have been working on
+- The JDBC stuff we have been working on
 - The Levenstein distance algorithm
 - The 2D Matrix class
 
