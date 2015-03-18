@@ -3,6 +3,26 @@ OOP Programming Labs
 
 Semester 2
 ----------
+Lab 8
+-----
+Get the TuneMatcherDB project from the workspace and import it into Eclipse. This project has:
+
+- The DSP stuff we have been working on
+- The JSBC stuff we have been working on
+- The Levenstein distance algorithm
+- The 2D Matrix class
+
+There are a few things we need to add:
+
+- The substring edit distance variation. If you remember how the Levenstein distance works, we set the 0th row and 0th column to be the values 0, 1, 2, 3... This works really well if the strings are roughly the same length, but it doesnt search for a substring in a string. For example if we had the strings:
+
+	```
+	haystack: BAGEAAAAAEABCBABCABAGABGAGEDEFGGABCAGEDEAA...
+	needle: AAEABB
+	``` 
+
+	We would get a high edit distance, beuase we would need lots of insertions to make neelde into haystack
+
 
 Lab 7
 -----
