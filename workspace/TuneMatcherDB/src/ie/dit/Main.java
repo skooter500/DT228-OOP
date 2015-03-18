@@ -37,7 +37,7 @@ public class Main extends PApplet
 		
 		searcher = new TuneSearcher();
 		searcher.loadTunes();
-		System.out.println(searcher.closestMatch("AGABCADBAFDDFEFGFEDBA"));
+		System.out.println(searcher.closestMatch("BGGGBGBGAFDCBCABGGGFGEDAFADA"));
 		System.out.println(EditDistance.substringEditDistance("AAEABB", "BAGEAAAAAEABCBABCABAGABGAGEDEFGGABCAGEDEAA"));
 		
 		
