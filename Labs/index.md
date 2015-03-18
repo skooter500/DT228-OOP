@@ -52,7 +52,7 @@ The next thing we need to add is add the ability to go through each of the tunes
 
 	```System.out.println(searcher.closestMatch("AGABCADBAFDDFEFGFEDBA"));```
      
-- Prints the string "O'Carolan's Concerto"
+	Prints the string "O'Carolan's Concerto"
 
 The next thing we need to do (and we probably will do this in the lab next week) is to use the string of notes read from the microphone to do the search. We might for example wait until we have read 20 notes and then do the search
 Finally, we might want to output the top 10 closest matching tunes instead of just the closest one.  
