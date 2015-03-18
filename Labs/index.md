@@ -36,7 +36,19 @@ There are a few things we need to add:
 		
 		Prints 1
 
-The next thing we need to add is add the ability to go through each of the tunes and find the closest match 
+The next thing we need to add is add the ability to go through each of the tunes and find the closest match. To do this, lets add a method ```public Tune closestMatch(String notes)``` to the TuneMatcher class. To implement this method we have to:
+
+- Go through each of the tunes in the tunes ArrayList and calculate the substring edit distance between the notes parameter and the searchKey of the tune
+- Return the Tune with the lowest edit distance. For example, running: 
+
+	```System.out.println(searcher.closestMatch("AGABCADBAFDDFEFGFEDBA"));```
+     
+- Prints the string "O'Carolan's Concerto"
+
+The next thing we need to do (and we probably will do this in the lab next week) is to use the string of notes read from the microphone to do the search. We might for example wait until we have read 20 notes and then do the search
+Finally, we might want to output the top 10 closest matching tunes instead of just the closest one.  
+
+Login to webcourses and do the MCQ. There is a password which I'll give out in the lab
 
 Lab 7
 -----
