@@ -14,7 +14,15 @@ Get the TuneMatcherDB project from the workspace on git and import it into Eclip
 
 There are a few things we need to add:
 
-- The *substring* edit distance. If you remember how the Levenstein distance works, we set the 0th row and 0th column to be the values 0, 1, 2, 3... This works really well if the strings are roughly the same length, but it doesnt search for a substring in a string. For example if we had the strings:
+- Make a Tune class with fields for title and searchKey.
+- Make properties for the fields
+- Make a constructor
+- Make a field on TuneSearcher of type ArrayList<Tune> tunes.
+- In the method loadTunes, create new instances of the Tune class and add them to the ArrayList instead of printing out the tunes.
+
+Next we have to implement the *substring* edit distance algorithm. 
+
+- If you remember how the Levenstein distance works, we set the 0th row and 0th column to be the values 0, 1, 2, 3... This works really well if the strings are roughly the same length, but it doesnt search for a substring in a string. For example if we had the strings:
 
 	```
 	haystack: BAGEAAAAAEABCBABCABAGABGAGEDEFGGABCAGEDEAA...
