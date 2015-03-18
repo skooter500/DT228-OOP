@@ -17,8 +17,9 @@ There are a few things we need to add:
 - Make a Tune class with fields for title and searchKey.
 - Make properties for the fields
 - Make a constructor
+- Make a toString() method
 - Make a field on TuneSearcher of type ArrayList<Tune> tunes.
-- In the method loadTunes, create new instances of the Tune class and add them to the ArrayList instead of printing out the tunes.
+- In the method loadTunes on the class TuneSearcher, create new instances of the Tune class and add them to the ArrayList instead of printing out the tunes.
 
 Next we have to implement the *substring* edit distance algorithm. 
 
