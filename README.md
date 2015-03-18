@@ -19,6 +19,10 @@ Resources
 Semester 2
 ----------
 
+Week 8
+------
+- [Lab 8](Labs/index.md)
+
 
 Week 7
 ------

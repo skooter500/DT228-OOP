@@ -14,14 +14,20 @@ Get the TuneMatcherDB project from the workspace and import it into Eclipse. Thi
 
 There are a few things we need to add:
 
-- The substring edit distance variation. If you remember how the Levenstein distance works, we set the 0th row and 0th column to be the values 0, 1, 2, 3... This works really well if the strings are roughly the same length, but it doesnt search for a substring in a string. For example if we had the strings:
+- The *substring* edit distance. If you remember how the Levenstein distance works, we set the 0th row and 0th column to be the values 0, 1, 2, 3... This works really well if the strings are roughly the same length, but it doesnt search for a substring in a string. For example if we had the strings:
 
 	```
 	haystack: BAGEAAAAAEABCBABCABAGABGAGEDEFGGABCAGEDEAA...
 	needle: AAEABB
 	``` 
 
-	We would get a high edit distance, becuase we would need lots of insertions to make needle into haystack, however if we take the time to look at the two strings, we will see that AAEABB kindof matches with AAEABC, with a distance of 1.
+	We would get a high edit distance, becuase we would need lots of insertions to make needle into haystack. However if we take the time to look at the two strings, we will see that AAEABB kind of matches with AAEABC, (a substring of haystack starting at character 7), with a distance of 1.
+- We need this so that we can play a short segment from a tune and still find the closest match, even though the segment will be shorter then the tune.
+- We can calculate this by making the following changes to the file EditDistance.java:
+	- Make a method called ```float substringEditDistance(String needle, String haystack)```. Copy the code from MinimumEditDistance
+	- Set the 0th row to be all 0's instead of the sequence 0, 1, 2, 3... This is the bit inside the loop ```for (int col = 0 ; col < cols; col ++)```... 
+	- Instead of returning the value held in the bottom right of the matrix, return the minimum value held in the bottom row. Just loop through the last row and return the minimum. 
+	- The position where the minimum occurs is the location where the substring ends, but you dont need to do anything with it  
 
 
 Lab 7
