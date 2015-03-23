@@ -23,7 +23,9 @@ public class Main extends PApplet
 	FFT fft;
 	
 	TuneSearcher searcher;
-		
+	
+	String transcription = "";
+	
 	public void setup()
 	{
 		size(2048, 500);
@@ -38,6 +40,7 @@ public class Main extends PApplet
 		searcher = new TuneSearcher();
 		searcher.loadTunes();
 
+		println(searcher.findTune("AFFACBBXXAFEEEFABCE"));
 		
 	}
 	
@@ -53,6 +56,10 @@ public class Main extends PApplet
 				minDiff = diff;
 				minIndex = i;
 			}
+		}
+		if (minDiff > 20)
+		{
+			return "";
 		}
 		return spellings[minIndex];
 	}
@@ -86,6 +93,8 @@ public class Main extends PApplet
 		return fft.indexToFreq(maxIndex);
 	}
 	
+	String lastNote = "";
+	String matched = "";
 	public void draw()
 	{
 		background(0);
@@ -138,8 +147,21 @@ public class Main extends PApplet
 			String fftSpell = spell(freqByFFT);
 			text("Freq by FFT: " + freqByFFT, 10, 90);
 			text("Spelling by FFT: " + fftSpell, 10, 110);
+			if (fftSpell.equals(lastNote))
+			{
+				appendNote(fftSpell);			
+			}
+			lastNote = fftSpell;
 		}
+		text("Transcription: " + transcription, 10, 130);
 		
+		if (transcription.length() == 100)
+		{
+			println("Searching...");
+			matched = searcher.findTune(transcription).getTitle();
+			transcription = "";
+		}
+		text("Matched: " + matched, 10, 150);
 		float smallRadius = 50;
 		float bigRadius = (smallRadius * 2) + (average * 500);
 		
@@ -150,8 +172,26 @@ public class Main extends PApplet
 		fill(0);
 		ellipse(width / 2, height / 2, smallRadius, smallRadius);	
 		
+		if (keyPressed)
+		{
+			if (key == ' ')
+			{
+				transcription = "";
+			}
+		}
 	}
 	
+	private void appendNote(String fftSpell) 
+	{
+		if (transcription.length() > 0)
+		{
+			if (transcription.substring(transcription.length() - 1).equals(fftSpell))
+			{
+				return;
+			}
+		}
+		transcription += fftSpell;
+	}
 
 	/*
 	public void draw()
