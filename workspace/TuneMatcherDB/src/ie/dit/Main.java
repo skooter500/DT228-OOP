@@ -23,10 +23,10 @@ public class Main extends PApplet
 	FFT fft;
 	
 	TuneSearcher searcher;
-	
+		
 	public void setup()
 	{
-		size(2048, 500, OPENGL);
+		size(2048, 500);
 		smooth();
 		minim = new Minim(this);
 		
@@ -37,6 +37,7 @@ public class Main extends PApplet
 		
 		searcher = new TuneSearcher();
 		searcher.loadTunes();
+
 		
 	}
 	
@@ -125,7 +126,7 @@ public class Main extends PApplet
 		text("Amp: " + average, 10, 10);
 		int zeroC = countZeroCrossings();		
 		
-		if (average > 0.001f)
+		if (average > 0.01f)
 		{
 			float freqByZeroC = ((float) sampleRate / (float)in.bufferSize()) * (float) zeroC;
 			text("Zero crossings: " + zeroC, 10, 30);
@@ -136,8 +137,9 @@ public class Main extends PApplet
 			
 			String fftSpell = spell(freqByFFT);
 			text("Freq by FFT: " + freqByFFT, 10, 90);
-			text("Spelling by FFT: " + fftSpell, 10, 110);						
+			text("Spelling by FFT: " + fftSpell, 10, 110);
 		}
+		
 		float smallRadius = 50;
 		float bigRadius = (smallRadius * 2) + (average * 500);
 		
@@ -146,9 +148,11 @@ public class Main extends PApplet
 		ellipse(width / 2, height / 2, bigRadius, bigRadius);
 		stroke(0);
 		fill(0);
-		ellipse(width / 2, height / 2, smallRadius, smallRadius);		
+		ellipse(width / 2, height / 2, smallRadius, smallRadius);	
+		
 	}
 	
+
 	/*
 	public void draw()
 	{

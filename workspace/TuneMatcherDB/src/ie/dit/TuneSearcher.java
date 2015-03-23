@@ -4,6 +4,26 @@ import java.sql.*;
 import java.util.ArrayList;
 
 public class TuneSearcher {
+	
+	ArrayList<Tune> tunes = new ArrayList<Tune>();
+	
+	public Tune findTune(String notes)
+	{
+		float min = Float.MAX_VALUE;
+		int minIndex = 0;
+		for (int i = 0 ; i < tunes.size() ; i ++)
+		{
+			Tune tune = tunes.get(i);
+			float dist = EditDistance.substringEditDistance(notes, tune.getSearchKey());
+			if (dist < min)
+			{
+				min = dist;
+				minIndex = i;
+			}
+		}
+		return tunes.get(minIndex);
+	}
+	
 	public void loadTunes()
 	{
 		Connection conn = null;
@@ -18,9 +38,9 @@ public class TuneSearcher {
           r = s.executeQuery();   
           while (r.next())
           {
-        	  System.out.println(r.getString("title"));
-        	  System.out.println(r.getString("search_key"));
-
+        	  Tune tune = new Tune(r);
+        	  tunes.add(tune);
+        	  //System.out.println(tune);
           }          
        }
        catch (ClassNotFoundException e)
