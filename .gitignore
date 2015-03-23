@@ -81,10 +81,6 @@ local.properties
 .settings/
 .loadpath
 .log
-*.log
-*.index
-*.resources
-org.eclipse.core.resources
 /src/main/resources/rebel.xml
 # External tool builders
 .externalToolBuilders/
