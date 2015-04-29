@@ -3,6 +3,7 @@ package ie.dit;
 import java.util.ArrayList;
 
 import processing.core.PApplet;
+import processing.core.PImage;
 import ddf.minim.AudioInput;
 import ddf.minim.Minim;
 import ddf.minim.analysis.FFT;
@@ -22,11 +23,14 @@ public class Main extends PApplet
 	int sampleRate = 44100;
 	FFT fft;
 	
-	TuneSearcher searcher;
+	String transcription = "";
 	
+	TuneSearcher searcher;
+		
 	public void setup()
 	{
-		size(2048, 500, OPENGL);
+		PImage image = loadImage("../halfred.png");
+		size(2048, 500);
 		smooth();
 		minim = new Minim(this);
 		
@@ -37,6 +41,7 @@ public class Main extends PApplet
 		
 		searcher = new TuneSearcher();
 		searcher.loadTunes();
+
 		
 	}
 	
@@ -53,7 +58,14 @@ public class Main extends PApplet
 				minIndex = i;
 			}
 		}
-		return spellings[minIndex];
+		if (minDiff  < 20)
+		{
+			return spellings[minIndex];
+		}
+		else
+		{
+			return "";
+		}
 	}
 	
 	public int countZeroCrossings()
@@ -81,9 +93,12 @@ public class Main extends PApplet
 				maxValue = fft.getBand(i);
 				maxIndex = i;
 			}
+					
 		}
 		return fft.indexToFreq(maxIndex);
 	}
+	
+	String closestMatch;
 	
 	public void draw()
 	{
@@ -125,7 +140,7 @@ public class Main extends PApplet
 		text("Amp: " + average, 10, 10);
 		int zeroC = countZeroCrossings();		
 		
-		if (average > 0.001f)
+		if (average > 0.01f)
 		{
 			float freqByZeroC = ((float) sampleRate / (float)in.bufferSize()) * (float) zeroC;
 			text("Zero crossings: " + zeroC, 10, 30);
@@ -136,19 +151,47 @@ public class Main extends PApplet
 			
 			String fftSpell = spell(freqByFFT);
 			text("Freq by FFT: " + freqByFFT, 10, 90);
-			text("Spelling by FFT: " + fftSpell, 10, 110);						
+			text("Spelling by FFT: " + fftSpell, 10, 110);
+			if (transcription.length() > 0)
+			{
+				if (! transcription.substring(transcription.length() - 1).equals(fftSpell))
+				{
+					transcription += fftSpell;
+				}
+			}
+			else
+			{
+				transcription += fftSpell;
+			}
 		}
+		
+		if (transcription.length() > 60)
+		{
+			closestMatch = searcher.findTune(transcription).getTitle();
+			transcription = "";
+		}
+		
+		text("Closest Match: " + closestMatch, 10, 140);
+		
+		if (keyPressed && key == ' ')
+		{
+			transcription = "";
+		}
+		
 		float smallRadius = 50;
 		float bigRadius = (smallRadius * 2) + (average * 500);
 		
+		text("Transcription: " + transcription, 10, 130);
 		stroke(0, 255, 0);
 		fill(0, 255, 0);
 		ellipse(width / 2, height / 2, bigRadius, bigRadius);
 		stroke(0);
 		fill(0);
-		ellipse(width / 2, height / 2, smallRadius, smallRadius);		
+		ellipse(width / 2, height / 2, smallRadius, smallRadius);	
+		
 	}
 	
+
 	/*
 	public void draw()
 	{

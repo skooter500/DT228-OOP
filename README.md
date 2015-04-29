@@ -19,6 +19,14 @@ Resources
 Semester 2
 ----------
 
+Week 11
+-------
+- [Performance of Hashmaps vs arrays vs ArrayLists in Java](workspace/JavaPerformance)
+
+Week 10
+-------
+- [The completed music retrieval system](workspace/TuneMatcherDB)
+
 Week 8
 ------
 - [Lab 8](Labs/index.md)
