@@ -22,14 +22,11 @@ public class Main extends PApplet
 	String[] spellings = {"D", "E", "F", "G", "A", "B", "C", "D", "E", "F", "G", "A", "B","C", "D", "E", "F", "G", "A", "B", "C", "D", "E", "F", "G", "A", "B", "C", "D"};
 	int sampleRate = 44100;
 	FFT fft;
-	
 	String transcription = "";
-	
 	TuneSearcher searcher;
 		
 	public void setup()
 	{
-		PImage image = loadImage("../halfred.png");
 		size(2048, 500);
 		smooth();
 		minim = new Minim(this);
@@ -177,7 +174,7 @@ public class Main extends PApplet
 		{
 			transcription = "";
 		}
-		
+				
 		float smallRadius = 50;
 		float bigRadius = (smallRadius * 2) + (average * 500);
 		
