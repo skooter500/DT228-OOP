@@ -21,7 +21,7 @@ Semester 2
 
 Week 11
 -------
-- [Matrix with Exceptions](Java Examples/MatrixWIthExceptions)
+- [Matrix with Exceptions](Java Examples/MatrixWithExceptions)
 - [Performance of Hashmaps vs arrays vs ArrayLists in Java](workspace/JavaPerformance)
 
 Week 10
