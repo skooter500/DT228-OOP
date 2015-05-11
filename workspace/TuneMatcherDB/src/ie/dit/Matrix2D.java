@@ -38,7 +38,7 @@ public class Matrix2D
 	}
 	
 	
-	public static Matrix2D add(Matrix2D a, Matrix2D b)
+	public static Matrix2D add(Matrix2D a, Matrix2D b) throws Matrix2DException
 	{
 		Matrix2D c = new Matrix2D(a.getRows(), a.getCols());
 		
